@@ -37,6 +37,11 @@ layout: default
         {% endif %}
       </div>
     {% endif %}
+{% if page.social %}
+  <div class="profile-social">
+    {% social_links %}
+  </div>
+{% endif %}
 
     <div class="clearfix">{{ content }}</div>
 
@@ -66,12 +71,8 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
+  {{ site.contact_note }}
+{% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
