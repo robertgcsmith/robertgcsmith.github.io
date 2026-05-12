@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://robertgcsmith.github.io//al-folio/sitemap.xml
+Sitemap: https://robertgcsmith.github.io/sitemap.xml
