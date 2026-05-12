@@ -7,7 +7,8 @@ subtitle: <a href='#'>propter scientiae amorem</a>
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
+  more_info: >
     <div class="profile-social">
       <a href="mailto:robertgcsmith@gmail.com" title="Email">
         <i class="fa-solid fa-envelope"></i>
