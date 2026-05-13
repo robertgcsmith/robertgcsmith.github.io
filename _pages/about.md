@@ -9,15 +9,15 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <div class="profile-social">
+  <div class="profile-social">
       <a href="mailto:robertgcsmith@gmail.com" title="Email">
-        <i class="fa-solid fa-envelope"></i>
+        <i class="fas fa-envelope"></i>
       </a>
       <a href="https://github.com/robertgcsmith" target="_blank" rel="noopener" title="GitHub">
-        <i class="fa-brands fa-github"></i>
+        <i class="fab fa-github"></i>
       </a>
       <a href="https://www.linkedin.com/in/robert-g-c-smith-phd-0952813a2/" target="_blank" rel="noopener" title="LinkedIn">
-        <i class="fa-brands fa-linkedin"></i>
+        <i class="fab fa-linkedin"></i>
       </a>
     </div>
 
