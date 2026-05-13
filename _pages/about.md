@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-  <div class="profile-social">
+    <div class="profile-social">
       <a href="mailto:robertgcsmith@gmail.com" title="Email">
         <i class="fas fa-envelope"></i>
       </a>
