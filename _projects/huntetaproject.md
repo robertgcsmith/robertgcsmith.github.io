@@ -25,10 +25,7 @@ Current directions include the classification of new η regulator classes in num
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/astonishingetareg.png" title="Astonishing eta regulator" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-
+    
 Research questions:
 
 What makes a regulator physically admissible?
@@ -60,7 +57,6 @@ Spectral theory
 Functional analysis
 Discrete mathematics
 Perturbative / asymptotic methods
-
 
 Core skills and methods / tools:
 Mathematical modelling
