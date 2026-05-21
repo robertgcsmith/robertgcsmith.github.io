@@ -3,7 +3,9 @@ layout: page
 title: From Number Theory to Quantum Fields and Strings: Finding new classes of etas
 description: An ongoing research programme developing new classes of η regulators, exploring deep links between fundamental physics and foundational mathematics.
 
-img: assets/img/12.jpg
+An ongoing research programme on the construction and classification of admissible η regulator classes, bridging number theory, perturbative quantum field theory, and string theory.
+
+img: assets/img/light-shadow-pattern.jpg
 importance: 1
 category: fun
 related_publications: true
@@ -15,12 +17,12 @@ A distinctive feature of the project is its attempt to build a bridge between fu
 
 Current directions include the classification of new η regulator classes in number theory, including in the context of modular forms, and with application in perturbative quantum field theory.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: assets/img/light-shadow-pattern.jpg
-    ---
+This project develops η regularisation as part of a broader research programme toward a generalised theory of regularisation in perturbative quantum field theory. Its central objective is to identify, derive, and classify admissible classes of η regulator functions, 
+determine the physical and mathematical principles that constrain them, and clarify when finite parts of divergent quantities are uniquely fixed by symmetry, analyticity, unitarity, anomaly structure, or more general considerations deep in the high energy sector. Another important feature is foundations in analytic number theory, ranging from monomial series to modular forms.
+
+Motivated in part by smoothed asymptotics and related methods, the η framework provides a setting in which regularisation may be studied not merely as a calculational device, but as a problem concerning the mathematical and physical status of finite remainders extracted from formally divergent expressions.
+
+Current directions include the classification of new η regulator classes in number theory, perturbative QFT, and the field theory limit of string theory amplitudes; the study of gauge-invariant and anomaly-sensitive subclasses, the extension of the framework to the functional measure in the path-integral formalism, and the investigation of curved-spacetime and quantum-gravity-inspired constraints on admissible regulator structures.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
