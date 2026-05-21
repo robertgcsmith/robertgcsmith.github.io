@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "A list of my current projects",
           section: "Navigation",
           handler: () => {
@@ -400,6 +400,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/huntetaproject/";
+            },},{id: "projects-string-scattering-amplitudes-and-the-tropical-limit",
+          title: 'String Scattering Amplitudes and the Tropical Limit',
+          description: "A research project on the low-energy degeneration of perturbative string amplitudes to quantum field theory amplitudes, with particular emphasis on ultraviolet structure, induced regulator behaviour, and geometric algebraic methods.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/stringftlimit/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
