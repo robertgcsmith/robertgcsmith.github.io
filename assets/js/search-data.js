@@ -395,9 +395,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
-          description: "",
+          section: "News",},{id: "projects-from-number-theory-to-quantum-fields-and-strings-finding-new-classes-of-η-regulators",
+          title: 'From Number Theory to Quantum Fields and Strings: Finding new classes of η...',
+          description: "An ongoing research programme on the construction and classification of admissible η regulator classes, bridging number theory, perturbative quantum field theory, and string theory.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/huntetaproject/";
             },},{id: "projects-string-scattering-amplitudes-and-the-tropical-limit",
