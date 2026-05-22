@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -395,19 +395,34 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-from-number-theory-to-quantum-fields-and-strings-finding-new-classes-of-η-regulators",
+          section: "News",},{id: "projects-ai-and-ml-models-for-algorithmic-trade-execution",
+          title: 'AI and ML Models for Algorithmic Trade Execution',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/algotradeexecution/";
+            },},{id: "projects-from-number-theory-to-quantum-fields-and-strings-finding-new-classes-of-η-regulators",
           title: 'From Number Theory to Quantum Fields and Strings: Finding new classes of η...',
           description: "An ongoing research programme on the construction and classification of admissible η regulator classes, bridging number theory, perturbative quantum field theory, and string theory.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/huntetaproject/";
+            },},{id: "projects-modular-shadows",
+          title: 'Modular Shadows',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/modularshadows/";
             },},{id: "projects-machine-learning-for-market-structure-alpha",
           title: 'Machine Learning for Market Structure Alpha',
           description: "Machine Learning alpha development, validation, and execution systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/quantmarketstructureML/";
-            },},{id: "projects-string-scattering-amplitudes-and-the-tropical-limit",
-          title: 'String Scattering Amplitudes and the Tropical Limit',
-          description: "A research project on the low-energy degeneration of perturbative string amplitudes to quantum field theory amplitudes, with particular emphasis on ultraviolet structure, induced regulator behaviour, and geometric algebraic methods.",
+            },},{id: "projects-foundations-of-regularisation-and-resurgence",
+          title: 'Foundations of regularisation and resurgence',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/resurgence/";
+            },},{id: "projects-string-scattering-amplitudes-in-the-field-theory-limit",
+          title: 'String Scattering Amplitudes in the Field Theory Limit',
+          description: "A research project on the low-energy degeneration of perturbative string amplitudes to quantum field theory amplitudes, with particular emphasis on ultraviolet structure, modular forms, and induced regulator behaviour.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/stringftlimit/";
             },},{id: "teachings-data-science-fundamentals",
