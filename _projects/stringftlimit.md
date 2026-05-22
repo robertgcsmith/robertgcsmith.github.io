@@ -2,7 +2,7 @@
 layout: page
 title: String Scattering Amplitudes and the Tropical Limit
 description: A research project on the low-energy degeneration of perturbative string amplitudes to quantum field theory amplitudes, with particular emphasis on ultraviolet structure, induced regulator behaviour, and geometric algebraic methods.
-img: assets/img/3.jpg
+img: assets/img/amplituhedron-0c.png
 importance: 2
 category: fun
 giscus_comments: true
