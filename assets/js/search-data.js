@@ -400,6 +400,11 @@ ninja.data = [{
           description: "An ongoing research programme on the construction and classification of admissible η regulator classes, bridging number theory, perturbative quantum field theory, and string theory.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/huntetaproject/";
+            },},{id: "projects-machine-learning-for-market-structure-alpha",
+          title: 'Machine Learning for Market Structure Alpha',
+          description: "Machine Learning alpha development, validation, and execution systems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/quantmarketstructureML/";
             },},{id: "projects-string-scattering-amplitudes-and-the-tropical-limit",
           title: 'String Scattering Amplitudes and the Tropical Limit',
           description: "A research project on the low-energy degeneration of perturbative string amplitudes to quantum field theory amplitudes, with particular emphasis on ultraviolet structure, induced regulator behaviour, and geometric algebraic methods.",
