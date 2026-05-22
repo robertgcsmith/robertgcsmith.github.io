@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Foundations of regularisation and resurgence
 description: with background image
 img: assets/img/12.jpg
 importance: 3
@@ -8,7 +8,6 @@ category: work
 related_publications: true
 ---
 
-\paragraph{Foundations of regularisation and resurgence:}
 This project explores connections between the smoothed asymptotics arising in $\eta$ regularisation and Borel summation methods essential to resurgence \citep{SmithThesis25}, suggesting a deeper link between regularisation and non-perturbative physics. 
 
 The key interest is in establising a proof of such a connection, which would offer entirely new perspectives on physical mechanisms for the extraction of finite, testable values from expressions that are formally divergent \citep{SmithThesis25}.
