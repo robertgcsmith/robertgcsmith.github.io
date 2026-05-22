@@ -6,6 +6,7 @@ img: assets/img/vector-plot-geometry.jpg
 importance: 1
 category: work
 ---
+
 Prioritising a scientific and data-driven approach across the full research process and chain of production, the work is uniquely positioned in that it involves the full research and production lifecycle: 
 idea generation, data acquisition, data curation and integration, systematic alpha signal generation / strategy design, hypothesis testing, model validation, backtesting, risk management, and buy-side strategy execution.
 
@@ -26,20 +27,3 @@ To achieve key objectives, the role includes
 • Python-based data analysis (Pandas etc.), including advanced statistical analysis and modelling.
 • AL model building / machine learning engineering and deployment, primarily utilising Pytorch along with various methodological approaches and experimentation.
 • Utilisation of common algorithms, including linear Regression, decision trees, and hierarchical clustering, as well as novel algorithm development and design.
-
-More information featured in portfolio.
-
-
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
