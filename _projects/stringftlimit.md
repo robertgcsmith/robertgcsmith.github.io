@@ -1,18 +1,15 @@
 ---
 layout: page
-title: String Scattering Amplitudes and the Tropical Limit
-description: A research project on the low-energy degeneration of perturbative string amplitudes to quantum field theory amplitudes, with particular emphasis on ultraviolet structure, induced regulator behaviour, and geometric algebraic methods.
+title: String Scattering Amplitudes in the Field Theory Limit
+description: A research project on the low-energy degeneration of perturbative string amplitudes to quantum field theory amplitudes, with particular emphasis on ultraviolet structure, modular forms, and induced regulator behaviour.
 img: assets/img/amplituhedron-0c.png
 importance: 2
 category: fun
 giscus_comments: true
 ---
 
-This project studies how perturbative string scattering amplitudes reduce to quantum field theory amplitudes in the low-energy or field-theory limit, and what this degeneration reveals about ultraviolet structure, regularisation, and the mathematical organisation of amplitudes. 
-The project is motivated by the view that the field-theory limit of string theory is not merely an approximation procedure, but a structured limit in which modular and geometric properties of the worldsheet may leave non-trivial traces in the effective low-energy description.
-
-A central direction is the use of tropical and metric graph methods to analyse how string amplitudes descend to Schwinger-parameter formulations of low-energy field theory, and whether this process induces distinguished regulator structures or constrains the finite parts of low-energy amplitudes. 
-In this way, the project sits at the interface of string theory, scattering amplitudes, quantum field theory, and algebraic / geometric methods, with the longer-term aim of understanding how ultraviolet-finite quantum gravity may organise low-energy perturbative physics.
+This project studies how perturbative string scattering amplitudes reduce to quantum field theory amplitudes in the low-energy or field theory limit, and what this degeneration reveals about ultraviolet structure, regularisation, and the mathematical organisation of amplitudes. 
+The project is motivated by the view that the field theory limit of string theory is not merely an approximation procedure, but a structured limit in which modular and geometric properties of the worldsheet may leave non-trivial traces in the effective low-energy description. Of particular interest is the use of tropical geometry, which exists at the intersection of algebraic geometry and combinatorics, to describe the degeneration of the string worldsheet and the decomposition of its modular data. This involves the use of tropical and metric graph methods to analyse how string amplitudes descend to Schwinger-parameter formulations of low-energy field theory, and the study of how induced regulator structure constrains the finite parts of low-energy amplitudes as directly descended from quantum gravity. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
