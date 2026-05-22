@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Mathematical Physics PhD | Quantitative Research | Machine Learning</a>
 
