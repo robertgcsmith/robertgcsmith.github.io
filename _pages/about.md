@@ -39,6 +39,10 @@ I am a theoretical physicist by training, with expertise at the interface of fun
 
 My interest in studying deep, fundamental problems and in exploring connections across maths and physics, persists as I now turn my attention to applications in quantitative finance. I am especially interested in opportunities where data-driven research, rigorous mathematics, modelling, and computation are applied to complex practical problems with real-world consequences. I am currently working on developing AI and Machine Learning models for market structure and micro-structure research. I am particularly interested in the combination of machine learning, market microstructure methodology, statistical modelling, and systematic strategy development as a means of identifying and generating alpha. What excites me most about quantitative research and trading is that, much like frontier theoretical physics, it demands conceptual depth, mathematical creativity, technical precision, and the ability to extract well-defined structure from highly complex systems.
 
+I am also openly looking for collaborative projects and opportunities.
+
+My current projects can be viewed [https://rgcsmith.com/projects/](here).
+
 ### My blogs
 - <a href="https://thestochasticledger.com/" target="_blank" style="text-decoration: none;">The Stochastic Ledger</a> — A blog in quantitative finance, covering topics across market structure theory, mathematics and statistical modelling, machine learning, and algorithmic design.
 - <a href="https://tracingcurves.wordpress.com/" target="_blank" style="text-decoration: none;">TracingCurves</a> — A research blog in mathematical physics, string/M-theory, and a few choice diversions.
