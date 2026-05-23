@@ -4,7 +4,7 @@ title: AI and ML Models for Algorithmic Trade Execution
 description: 
 img:
 importance: 3
-category: work
+category: Quantitative Finance
 ---
 
 {% raw %}
