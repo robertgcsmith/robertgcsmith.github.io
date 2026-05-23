@@ -400,8 +400,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/algotradeexecution/";
-            },},{id: "projects-from-number-theory-to-quantum-fields-and-strings-finding-new-classes-of-η-regulators",
-          title: 'From Number Theory to Quantum Fields and Strings: Finding new classes of η...',
+            },},{id: "projects-the-hunt-for-ηs",
+          title: 'The hunt for ηs',
           description: "An ongoing research programme on the construction and classification of admissible η regulator classes, bridging number theory, perturbative quantum field theory, and string theory.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/huntetaproject/";
