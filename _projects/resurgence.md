@@ -4,7 +4,7 @@ title: Foundations of regularisation and resurgence
 description: with background image
 img: assets/img/12.jpg
 importance: 3
-category: work
+category: From Number Theory to Quantum Fields and Strings
 related_publications: true
 ---
 
