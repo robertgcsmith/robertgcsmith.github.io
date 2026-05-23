@@ -4,7 +4,7 @@ title: String Scattering Amplitudes in the Field Theory Limit
 description: A research project on the low-energy degeneration of perturbative string amplitudes to quantum field theory amplitudes, with particular emphasis on ultraviolet structure, modular forms, and induced regulator behaviour.
 img: assets/img/amplituhedron-0c.png
 importance: 2
-category: fun
+category: From Number Theory to Quantum Fields and Strings
 giscus_comments: true
 ---
 
