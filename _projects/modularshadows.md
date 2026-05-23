@@ -4,7 +4,7 @@ title: Modular Shadows
 description:
 img:
 importance: 4
-category: fun
+category: From Number Theory to Quantum Fields and Strings
 ---
 
 {% raw %}
