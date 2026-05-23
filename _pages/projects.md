@@ -5,7 +5,7 @@ permalink: /projects/
 description: A list of my current projects
 nav: true
 nav_order: 3
-display_categories: [Quantitative Finance, From Number Theory to Quantum Fields and Strings]
+display_categories: [Quantitative Finance, AI and Machine Learning, From Number Theory to Quantum Fields and Strings]
 horizontal: false
 ---
 
