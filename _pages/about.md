@@ -41,7 +41,7 @@ My interest in studying deep, fundamental problems and in exploring connections 
 
 I am also actively looking for collaborative projects and opportunities.
 
-My current projects can be viewed [https://rgcsmith.com/projects/](here).
+My current projects can be viewed [here](https://rgcsmith.com/projects/).
 
 ### My blogs
 - <a href="https://thestochasticledger.com/" target="_blank" style="text-decoration: none;">The Stochastic Ledger</a> — A blog in quantitative finance, covering topics across market structure theory, mathematics and statistical modelling, machine learning, and algorithmic design.
