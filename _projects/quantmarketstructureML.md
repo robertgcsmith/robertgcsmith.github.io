@@ -4,7 +4,7 @@ title: Machine Learning for Market Structure Alpha
 description: Machine Learning alpha development, validation, and execution systems
 img: assets/img/vector-plot-geometry.jpg
 importance: 1
-category: work
+category: Quantitative Finance
 ---
 
 Prioritising a scientific and data-driven approach across the full research process and chain of production, the work is uniquely positioned in that it involves the full research and production lifecycle: 
