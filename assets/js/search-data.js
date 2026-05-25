@@ -400,9 +400,14 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/algotradeexecution/";
-            },},{id: "projects-the-hunt-for-ηs",
-          title: 'The hunt for ηs',
-          description: "An ongoing research programme on the construction and classification of admissible η regulator classes, bridging number theory, perturbative quantum field theory, and string theory.",
+            },},{id: "projects-foundations-of-eta-regularisation-in-quantum-field-theory",
+          title: 'Foundations of $\eta$ regularisation in quantum field theory',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/etaQFT/";
+            },},{id: "projects-the-hunt-for-new-classes-of-η-regulator-functions",
+          title: 'The hunt for new classes of η regulator functions',
+          description: "Part of an ongoing research programme on the construction and classification of admissible η regulator classes, bridging number theory, perturbative quantum field theory, and string theory.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/huntetaproject/";
             },},{id: "projects-modular-shadows",
