@@ -2,11 +2,11 @@
 layout: page
 title: Modular Shadows
 description:
-img:
+img: assets/img/light-shadow-pattern.jpg
 importance: 4
 category: From Number Theory to Quantum Fields and Strings
 ---
-Worldsheet modular invariance underpins the UV finiteness of string theory and motivates the study of modular invariant regulators and their ``modular shadows'' in the low-energy field theory {% SmithThesis25 %}. Complementary to the [tropical approach](https://rgcsmith.com/projects/stringftlimit/), this project analyses modular integrals using spectral methods and Rankin–Selberg techniques, focusing initially on one-loop partition functions for string theory compactified on a three-torus. This provides a sufficient setting for the characterisation of modular shadows as missing modular data whose spectral content captures the UV regularising effects of the string in the field theory limit.
+Worldsheet modular invariance underpins the UV finiteness of string theory and motivates the study of modular invariant regulators and their ``modular shadows'' in the low-energy field theory {% cite SmithThesis25 %}. Complementary to the [tropical approach](https://rgcsmith.com/projects/stringftlimit/), this project analyses modular integrals using spectral methods and Rankin–Selberg techniques, focusing initially on one-loop partition functions for string theory compactified on a three-torus. This provides a sufficient setting for the characterisation of modular shadows as missing modular data whose spectral content captures the UV regularising effects of the string in the field theory limit.
 
 {% raw %}
 
