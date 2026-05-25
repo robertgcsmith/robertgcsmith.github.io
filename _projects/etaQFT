@@ -1,0 +1,29 @@
+---
+layout: page
+title: Foundations of $\eta$ regularisation in quantum field theory
+description: with background image
+img: assets/img/12.jpg
+importance: 2
+category: From Number Theory to Quantum Fields and Strings
+related_publications: true
+---
+
+Modern physics routinely extracts unique, testable numbers from expressions that are infinite and formally divergent. Our ability to accurately describe the physics of much of the microscopic world---with some of the predictions of Quantum Field Theory (QFT) experimentally tested to an accuracy of one part in a trillion---often depends on extracting such finite quantities. This raises a basic question: how does the finite emerge from out of the infinite? How can well-defined, finite predictions emerge from divergent sums and integrals? To what extent---by symmetry or dynamics or some other physical criterion---is the unique finite remainder of a divergent sum or integral physically mandated? 
+
+
+
+
+{% raw %}
+
+```html
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+```
+
+{% endraw %}
