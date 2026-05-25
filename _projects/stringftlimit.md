@@ -18,6 +18,8 @@ Can the field-theory limit induce preferred regulator classes?
 What does the string/QFT interface reveal about UV completion?
 How do tropical and metric-graph methods organise this limit?
 
+As string theory is currently the most developed and well-defined theory of quantum gravity, with well-defined scattering amplitudes, a key aim of this project is to derive string theory induced classes of $\eta$ regulators {% SmithThesis25 %} by modifying the integration measure on spaces of metric graphs, which is the space of Feynman graphs. The key hypothesis is that the stringy corrections encoded in the proposed measure admits a unique geometric interpretation not yet covered in the literature, but has well-motivated relation to positive geometry and recent work on the amplituhedron and related structures. Starting from one-loop examples, this should lead to a new geometric and combinatorial perspective on regularisation that can enhance computational techniques for string and field theory amplitudes, and inspire new UV complete toy models in the field theory limit of high-energy theory.
+
 {% raw %}
 
 ```html
