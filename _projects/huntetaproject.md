@@ -15,7 +15,9 @@ My doctoral research took initial steps toward such a framework by developing $\
 
 $\lim_{N \to \infty} \sum_n n e^{-\frac{n}{N}} \cos\left(\frac{n}{N}\right) = -\frac{1}{12},$
 
-and developed many interesting algorithms for finding enhanced regulators of any given order. Ongoing work in a number theoretic context focuses on the search for new and interesting $\eta$ regulator classes, including (although not limited to) establishing deeper relations with zeta functions; identifying classes related to L-series, which are functions that encode arithmetic information into analytic objects (connecting infinite sums to prime numbers), and their relation to elliptic curves; and the study of quasi-asymptotics as a natural extension to established results in the context of monomial and polynomial series.
+and developed many interesting algorithms for finding enhanced regulators of any given order.
+
+Ongoing work involves the search for new and interesting $\eta$ regulator classes. An important task also involves deeper study in connection with quasi-asymptotic and Stieltjes integrals, which serve as a natural generalisation of the asymptotic structures (particular in the example of the use of Schwartz functions) observed in the context of monomial and polynomial series; establishing deeper relations with zeta functions; and identifying special classes related to L-series, which are functions that encode arithmetic information into analytic objects (connecting infinite sums to prime numbers). Another important site of ongoing investigatation concerns connections with Tauberian theorems.
 
 {% raw %}
 
