@@ -400,6 +400,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/algotradeexecution/";
+            },},{id: "projects-cantor-39-s-paradise",
+          title: 'Cantor&amp;#39;s Paradise',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cantorsparadise/";
             },},{id: "projects-foundations-of-eta-regularisation-in-quantum-field-theory",
           title: 'Foundations of $\eta$ regularisation in quantum field theory',
           description: "with background image",

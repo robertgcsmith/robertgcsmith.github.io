@@ -1,1 +1,0 @@
-Build a system that represents infinite set constructions, generates the iterated power-set hierarchy, and uses symbolic plus ML-assisted reasoning to classify familiar mathematical objects by cardinality level.
