@@ -6,7 +6,7 @@ subtitle: <a href='#'>Mathematical Physics PhD | Quantitative Research | Machine
 
 profile:
   align: right
-  image: assets/img/RGCS_profile.jpg
+  image: RGCS_profile.jpg
   image_circular: false
   more_info: >
     <div class="profile-social">
