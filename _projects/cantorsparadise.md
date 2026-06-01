@@ -2,13 +2,14 @@
 layout: page
 title: Cantor's Paradise
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/cantor_powerset.png
 importance: 1
 category: AI/ML Lab (Fun and Experimental Projects)
 related_publications: true
 ---
 Core objective: Build a system that represents infinite set constructions, generates the iterated power-set hierarchy, and uses symbolic plus ML-assisted reasoning to classify familiar mathematical objects by cardinality level.
 
+*Cover image from Wikimedia Commons.
 
 {% raw %}
 
