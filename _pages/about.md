@@ -7,7 +7,7 @@ subtitle: <a href='#'>Mathematical Physics PhD | Quantitative Research | Machine
 profile:
   align: right
   image: RGCS_profile.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
     <div class="profile-social">
       <a href="mailto:robertgcsmith@gmail.com" title="Email">
