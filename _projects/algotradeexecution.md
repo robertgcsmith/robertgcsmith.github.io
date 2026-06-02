@@ -2,7 +2,7 @@
 layout: page
 title: AI and ML Models for Algorithmic Trade Execution
 description: 
-img:
+img: assets/img/algo.jpeg
 importance: 3
 category: Quantitative Finance
 ---
