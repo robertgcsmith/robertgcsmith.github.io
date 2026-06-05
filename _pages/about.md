@@ -35,12 +35,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 ### PhD
-I am a theoretical physicist by training, with expertise at the interface of fundamental physics, foundational mathematics, and computation. My PhD research explored deep connections between string theory, perturbative quantum field theory, analytic number theory, algebraic geometry, and even category theory, while also drawing broadly on other areas across mathematics and physics. My PhD thesis, "At the edges of infinity and the finite: Charting a path to UV completion from number theory to quantum fields and strings" offers a sample of these efforts. Alongside this, I developed a strong interest in machine learning and in building models to uncover and formalise hidden structure in complex systems. This interest began in analytic number theory and numerical analysis and later expanded to other contexts.
+I am a theoretical physicist by training, with expertise at the interface of fundamental physics, foundational mathematics, and computation. One of my main research interests is searching for new and hidden mathematical structure. My PhD research explored deep connections between string theory, perturbative quantum field theory, analytic number theory, and algebraic geometry, while also drawing broadly on other areas across mathematics and physics. My PhD thesis, "At the edges of infinity and the finite: Charting a path to UV completion from number theory to quantum fields and strings" offers a sample of these efforts. 
+
+Alongside this work, I developed a strong interest in machine learning and computational methods, primarily as tools for discovering and formalising hidden structure. This began through problems in number theory and numerical analysis (e.g., the search for numerical patterns), and later developed
+into broader interests in applications of modelling, inference, and data-driven research in the context of complex systems.
 
 ### Quantitative finance
-These research years served many lessons and enabled me to develop many skills. My interest in exploring deep, fundamental problems and in studying connections across maths and physics, persists as I now turn my attention to applications in quantitative finance. I am especially interested in opportunities where data-driven research, rigorous mathematics, modelling, and computation are applied to complex practical problems. 
+I am now applying this background to quantitative finance. Of particular interest is the use of data-driven research, rigorous mathematics, modelling, and computation to solve complex practical problems. For example, I am currently working on developing a number of AI and Machine Learning models in combination with market structure methodology, statistical modelling, and systematic strategy development to identify new patterns and robust signals in noisy, high-dimensional data.
 
-I am currently working on developing AI and Machine Learning models for market structure and micro-structure research. I am particularly interested in the combination of machine learning, market microstructure methodology, statistical modelling, and systematic strategy development as a means of identifying and generating alpha. What excites me most about quantitative research and trading is that, much like frontier theoretical physics, it demands conceptual depth, mathematical creativity, technical precision, and the ability to extract well-defined structure from highly complex systems.
+What attracts me to quantitative research and trading is its combination of conceptual depth, mathematical creativity, technical precision, and empirical discipline. In many ways, it shares with frontier theoretical physics the challenge of extracting well-defined structure from highly complex systems — but with a direct connection to practical problem solving and decision making.
+
 
 ### Projects
 My current projects can be viewed [here](https://rgcsmith.com/projects/).
