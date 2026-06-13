@@ -5,7 +5,7 @@ description: ML algorithm to explore the infinite hierarchy of infinities
 img: assets/img/cantor_powerset.png
 importance: 1
 category: AI/ML Lab (Fun and Experimental Projects)
-related_publications: true
+related_publications: false
 ---
 
 [GitHub repository](https://github.com/robertgcsmith/cantorsparadise){:target="_blank" rel="noopener"}
