@@ -45,7 +45,7 @@ I am now applying this background to quantitative finance. Of particular interes
 
 What attracts me to quantitative research and trading is its combination of conceptual depth, mathematical creativity, technical precision, and empirical discipline. In many ways, it shares with frontier theoretical physics the challenge of extracting well-defined structure from highly complex systems — but with a direct connection to practical problem solving and decision making.
 
-I also have experience modelling systems in mathematical biology. I am especially interested in machine learning applications to develop solutions to complex biological problems with genuine, real world impact.
+I also have experience modelling systems in mathematical biology. I am especially interested in machine-learning applications to reaction-diffusion models of morphogenesis, and more broadly in the use of mathematical and computational methods to study evolutionary biology, including genotype-phenotype mapping, mutational robustness, phylogenetics, structural biology, bioenergetics, cellular division, gene regulation, and epigenetics.
 
 
 ### Projects
