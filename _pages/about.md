@@ -40,10 +40,12 @@ I am a theoretical physicist by training, with expertise at the interface of fun
 Alongside this work, I developed a strong interest in machine learning and computational methods, primarily as tools for discovering and formalising hidden structure. This began through problems in number theory and numerical analysis (e.g., the search for numerical patterns), and later developed
 into broader interests in applications of modelling, inference, and data-driven research in the context of complex systems.
 
-### Quantitative finance
+### Quantitative research and machine learning
 I am now applying this background to quantitative finance. Of particular interest is the use of data-driven research, rigorous mathematics, modelling, and computation to solve complex practical problems. For example, I am currently working on developing a number of AI and Machine Learning models in combination with market structure methodology, statistical modelling, and systematic strategy development to identify new patterns and robust signals in noisy, high-dimensional data.
 
 What attracts me to quantitative research and trading is its combination of conceptual depth, mathematical creativity, technical precision, and empirical discipline. In many ways, it shares with frontier theoretical physics the challenge of extracting well-defined structure from highly complex systems — but with a direct connection to practical problem solving and decision making.
+
+I also have experience modelling systems in mathematical biology. I am especially interested in machine learning applications to develop solutions to complex biological problems with genuine, real world impact.
 
 
 ### Projects
