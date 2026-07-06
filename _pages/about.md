@@ -48,7 +48,7 @@ What attracts me to quantitative research and trading is its combination of conc
 I am also interested in mathematical and computational biology. This interest started with developing reaction-diffusion models of morphogenesis, and later evolved into a broader interest in machine learning applications and in the use of fundamental physics concepts in evolutionary biology, including genotype-phenotype mapping, mutational robustness, phylogenetics, gene regulation, and epigenetics. I am especially interested in applying computational and machine learning methods to research problems in bioenergetics and structural biology.
 
 ### Projects
-My current projects can be viewed [here](https://rgcsmith.com/projects/).
+Some of my current projects can be viewed [here](https://rgcsmith.com/projects/).
 
 I am also actively looking for collaborative projects and opportunities.
 
