@@ -410,6 +410,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/etaQFT/";
+            },},{id: "projects-quantifying-the-geometry-of-liquidity",
+          title: 'Quantifying the Geometry of Liquidity',
+          description: "An end-to-end system for intraday equity markets",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/geometryofliquidity/";
             },},{id: "projects-the-hunt-for-new-classes-of-η-regulator-functions",
           title: 'The hunt for new classes of η regulator functions',
           description: "Part of an ongoing research programme on the construction and classification of admissible η regulator classes, bridging number theory, perturbative quantum field theory, and string theory.",
