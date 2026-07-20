@@ -8,6 +8,6 @@ category: Quantitative Finance
 ---
 This project has two distinct parts: mathematical research and modelling, and the design of a complete end-to-end algorithmic trading system.
 
-The main goal of the quantitative research is to investigate whether regions of concentrated liquidity and asymmetric buying/selling pressure can be detected, rigorously quantified, and systematically evaluated to support intraday algorithmic trading decisions in equity markets. It is based on original mathematical and statistical research.
+The quantitative research component aims to investigate whether regions of concentrated liquidity and asymmetric buying/selling pressure can be quantified, systematically modelled, and rigorously evaluated to support intraday algorithmic trading decisions in equity markets. The project is based on original mathematical and statistical research.
 
-The system design functions as an implementation of the mathematical research. Combining market structure principles, volume and participation parametrisations, order-flow imbalance, liquidity response, and zone-boundary behaviour, the system is designed to support the full lifecycle: data ingestion, demand-zone detection, signal validation, through to trade execution via novel API-driven architecture.
+The system design component functions as an implementation of the mathematical research. Combining market structure principles, volume and participation parametrisations, order-flow imbalance, liquidity response, and zone-boundary behaviour, the system is designed to support the full lifecycle from data ingestion, demand zone detection, signal validation, and trade execution (via novel API-driven architecture).
