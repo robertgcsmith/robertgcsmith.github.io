@@ -425,9 +425,9 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/modularshadows/";
-            },},{id: "projects-machine-learning-for-market-structure-alpha",
-          title: 'Machine Learning for Market Structure Alpha',
-          description: "Machine Learning alpha development, validation, and execution systems",
+            },},{id: "projects-machine-learning-and-market-structure",
+          title: 'Machine Learning and Market Structure',
+          description: "Machine Learning models for market micro- and macro-structure",
           section: "Projects",handler: () => {
               window.location.href = "/projects/quantmarketstructureML/";
             },},{id: "projects-foundations-of-regularisation-and-resurgence",
