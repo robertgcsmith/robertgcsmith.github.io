@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Machine Learning for Market Structure Alpha
-description: Machine Learning alpha development, validation, and execution systems
+title: Machine Learning and Market Structure
+description: Machine Learning models for market micro- and macro-structure
 img: assets/img/vector-plot-geometry.jpg
 importance: 1
 category: Quantitative Finance
