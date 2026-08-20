@@ -1,10 +1,10 @@
 cv:
-  name: Robert G. C. Smith
-  label: Theoretical Physicist and Quantitative Researcher
+  name: Robert G. C. Smith, PhD
+  label: Theoretical Physics | Quantitative Research | Machine Learning
   email: robertgcsmith[at]gmail.com
-  location: Princeton, NJ
+  location: United Kingdom
   image: ""
-  summary: Theoretical physicist turned quantitative researcher and ML practitioner 
+  summary:  Theoretical physicist, focused on quantitative research and machine learning 
 
   social_networks:
     - network: GitHub
@@ -14,7 +14,7 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
+      - institution: University of Nottingham
         location: Zurich, Switzerland
         url: https://www.uzh.ch/
         area: Physics
