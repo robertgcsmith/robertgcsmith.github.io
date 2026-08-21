@@ -52,24 +52,3 @@ to quantum fields and strings"
         awarder: Snowdon Trust
         summary: Awardee of the Snowden Master's Scholarship for the duration of Master’s study.
 
-    Programming Languages:
-    - name: Python
-    - name: C++
-    - name: R
-    - name: SQL
-    - name: Mathematica
-
-    Machine Learning:
-    - name: Pytorch, Pytorch Geometric
-    - name: TensorFlow
-    - name: Scikit-Learn
-    - name: XGBoost
-    - name: NLP
-    - name: LLM fine tuning
-    
-    Languages:
-      - name: Latin
-        summary: Level 2
-
-      - name: Swedish
-        summary: basic, CEFR A2
