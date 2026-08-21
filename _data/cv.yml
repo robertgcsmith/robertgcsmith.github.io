@@ -67,7 +67,6 @@ to quantum fields and strings"
     - name: NLP
     - name: LLM fine tuning
     
-Machine Learning}{Pytorch, Pytorch Geometric, TensorFlow, Scikit-Learn, Hugging Face, CLIP, NLP, RAG, LLMs, SHAP, LIME}
     Languages:
       - name: Latin
         summary: Level 2
