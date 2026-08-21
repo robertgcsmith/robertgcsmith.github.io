@@ -20,8 +20,7 @@ cv:
         studyType: PhD
         start_date: 2021
         end_date: 2026
-        thesis: "At the edges of infinity and the finite: Charting a path to UV completion from number theory \\
-to quantum fields and strings"
+        thesis: "At the edges of infinity and the finite: Charting a path to UV completion from number theory to quantum fields and strings"
 
       - institution: University of Nottingham
         location: Nottingham, UK
@@ -46,9 +45,9 @@ to quantum fields and strings"
         awarder: Institute of Physics
         summary: Awarded PhD research grant from the Institute of Physics scholarships fund for the duration of PhD in mathematical physics at the University of Nottingham.
 
-      - title: Snowdon Master's Scholarship
+      - title: Snowdon Masters Scholarship
         start_date: 2020
         end_date: 2021
         awarder: Snowdon Trust
-        summary: Awardee of the Snowden Master's Scholarship for the duration of Master’s study.
+        summary: Awardee of the Snowden Masters Scholarship for the duration of Master’s study.
 
