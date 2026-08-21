@@ -1,10 +1,10 @@
 cv:
-  name: Robert G. C. Smith, PhD
-  label: Theoretical Physicist | Quantitative Researcher | Machine Learning Scientist
+  name: "Robert G. C. Smith, PhD"
+  label: "Theoretical Physicist | Quantitative Researcher | Machine Learning Scientist"
   email: robertgcsmith[at]gmail.com
   location: United Kingdom
   image: ""
-  summary: Theoretical physicist focused on quantitative research and machine learning 
+  summary: "Theoretical physicist focused on quantitative research and machine learning"
 
   social_networks:
     - network: GitHub
@@ -15,7 +15,7 @@ cv:
   sections:
     Education:
       - institution: University of Nottingham
-        location: Nottingham, UK
+        location: "Nottingham, UK"
         area: Theoretical Physics
         studyType: PhD
         start_date: 2021
@@ -31,7 +31,7 @@ cv:
         thesis: "Double Sigma Models"
 
       - institution: University of Nottingham
-        location: Nottingham, UK
+        location: "Nottingham, UK"
         area: Mathematical Physics
         studyType: MSci (Hons)
         start_date: 2018
@@ -39,15 +39,15 @@ cv:
         highlights:
           - Academically accelerated to post-graduate degree
     Awards:
-      - title: Institute of Physics: Bell Burnell Graduate Scholarship
+      - title: "Institute of Physics: Bell Burnell Graduate Scholarship"
         start_date: 2021 
         end_date: 2025
         awarder: Institute of Physics
         summary: Awarded PhD research grant from the Institute of Physics scholarships fund for the duration of PhD in mathematical physics at the University of Nottingham.
 
-      - title: Snowdon Masters Scholarship
+      - title: "Snowdon Master's Scholarship"
         start_date: 2020
         end_date: 2021
         awarder: Snowdon Trust
-        summary: Awardee of the Snowden Masters Scholarship for the duration of Master’s study.
+        summary: "Awardee of the Snowden Master's Scholarship for the duration of Master’s study."
 
