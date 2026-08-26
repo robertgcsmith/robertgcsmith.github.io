@@ -53,5 +53,5 @@ I am also actively looking for collaborative projects and opportunities.
 
 ### My blogs
 - <a href="https://thestochasticledger.com/" target="_blank" style="text-decoration: none;">The Stochastic Ledger</a> — Quantitative research and machine learning blog.
-- <a href="https://tracingcurves.wordpress.com/" target="_blank" style="text-decoration: none;">TracingCurves</a> — A research blog in mathematical physics, string/M-theory, and a few choice diversions.
+- <a href="https://tracingcurves.wordpress.com/" target="_blank" style="text-decoration: none;">TracingCurves</a> — Research blog in mathematical physics, string/M-theory, and a few choice diversions.
 - <a href="https://dialoguesatstillpoints.co.uk/" target="_blank" style="text-decoration: none;">Dialogues at Still Points</a> — Reflections across literature, history, and philosophy.
