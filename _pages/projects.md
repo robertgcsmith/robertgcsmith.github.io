@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: A selection of current projects
-nav: true
+nav: false
 nav_order: 3
 display_categories: [Quantitative Finance, AI/ML Lab (Fun and Experimental Projects), From Number Theory to Quantum Fields and Strings, Mathematical Biology]
 horizontal: false
