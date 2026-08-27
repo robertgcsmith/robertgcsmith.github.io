@@ -45,11 +45,6 @@ data-driven research, rigorous mathematics, computation, and sophisticated model
 
 I am also interested in mathematical and computational biology. This interest started with developing reaction-diffusion models of morphogenesis, and later evolved into a broader interest in machine learning applications and in the use of fundamental physics concepts in evolutionary biology, including genotype-phenotype mapping, mutational robustness, phylogenetics, gene regulation, and epigenetics. I am especially interested in applying computational and machine learning methods to research problems in bioenergetics and structural biology.
 
-### Projects
-A selection of my projects can be viewed [here](https://rgcsmith.com/projects/).
-
-I am also actively looking for collaborative projects and opportunities.
-
 ### My blogs
 - <a href="https://thestochasticledger.com/" target="_blank" style="text-decoration: none;">The Stochastic Ledger</a> — Quantitative research and machine learning blog.
 - <a href="https://tracingcurves.wordpress.com/" target="_blank" style="text-decoration: none;">TracingCurves</a> — Research blog in mathematical physics, string/M-theory, and a few choice diversions.
