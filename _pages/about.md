@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Mathematical Physics PhD | Quantitative Research | Machine Learning</a>
+subtitle: <a href='#'>Mathematical Physics PhD | Machine Learning | Quantitative Research </a>
 
 profile:
   align: right
