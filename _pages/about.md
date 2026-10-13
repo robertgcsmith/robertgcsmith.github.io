@@ -39,7 +39,7 @@ I am a theoretical physicist by training, with expertise at the intersection of 
 
 During my PhD, I also developed growing interest in mathematical modelling, particularly the modelling of complex and stochastic systems, with a focus on combining machine learning and computational methods to uncover and formalise hidden structure. This interest later broadened to encompass the application of advanced mathematical techniques in combination with data-driven analysis.
 
-### Quantitative research and machine learning
+###  Machine learning and quantitative research
 I am now applying this background as a machine learning scientist, with a focus in quantitative research and on developing new algorithms and methods for solving complex scientific and real-world problems. Of particular interest is the use of modern AI methods in combination of 
 data-driven research, rigorous mathematics, computation, and sophisticated modelling techniques. 
 
