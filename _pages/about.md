@@ -21,7 +21,7 @@ profile:
       </a>
     </div>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -49,3 +49,6 @@ I am also interested in mathematical and computational biology. This interest st
 - <a href="https://thestochasticledger.com/" target="_blank" style="text-decoration: none;">The Stochastic Ledger</a> — Machine learning and quantitative research blog.
 - <a href="https://tracingcurves.wordpress.com/" target="_blank" style="text-decoration: none;">TracingCurves</a> — Research blog in mathematical physics, string/M-theory, and a few choice diversions.
 - <a href="https://dialoguesatstillpoints.co.uk/" target="_blank" style="text-decoration: none;">Dialogues at Still Points</a> — Reflections across literature, history, and philosophy.
+
+### Selected media coverage
+- <a href="https://youtu.be/beakj767uG4?si=-HhfnuYGZ0jzmOV" target="_blank" style="text-decoration: none;">Video featured on Numberphile discussing co-authored research, with nearly one million views.</a>
