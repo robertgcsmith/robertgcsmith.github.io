@@ -40,10 +40,14 @@ I am a theoretical physicist by training, with expertise at the intersection of 
 During my PhD, I also developed growing interest in mathematical modelling, particularly the modelling of complex and stochastic systems, with a focus on combining machine learning and computational methods to uncover and formalise hidden structure. This interest later broadened to encompass the application of advanced mathematical techniques in combination with data-driven analysis.
 
 ###  Machine learning and quantitative research
-I am now applying this background as a machine learning scientist, with a focus in quantitative research and on developing new algorithms and methods for solving complex scientific and real-world problems. Of particular interest is the use of modern AI methods in combination of 
+I am now applying this background as a machine learning research scientist, with a focus on developing new algorithms and methods for solving complex scientific and real-world problems. Of particular interest is the use of modern AI methods in combination of 
 data-driven research, rigorous mathematics, computation, and sophisticated modelling techniques. 
 
 I am also interested in mathematical and computational biology. This interest started with developing reaction-diffusion models of morphogenesis, and later evolved into a broader interest in machine learning applications and in the use of fundamental physics concepts in evolutionary biology, including genotype-phenotype mapping, mutational robustness, phylogenetics, gene regulation, and epigenetics. I am especially interested in applying computational and machine learning methods to research problems in bioenergetics and structural biology.
+
+### Current research interests
+
+My research interests are increasingly centred on the intersections between generative modelling, active learning, reinforcement learning, and sequential decision-making, as well as inverse problems and simulation-based inference, scientific machine learning (SciML), and representation learning for scientific data. I am also interested in emerging areas such as probabilistic numerical methods, especially where they connect numerical computation with uncertainty quantification, inference, and learning.
 
 ### My blogs
 - <a href="https://thestochasticledger.com/" target="_blank" style="text-decoration: none;">The Stochastic Ledger</a> — Machine learning and quantitative research blog.
@@ -51,4 +55,4 @@ I am also interested in mathematical and computational biology. This interest st
 - <a href="https://dialoguesatstillpoints.co.uk/" target="_blank" style="text-decoration: none;">Dialogues at Still Points</a> — Reflections across literature, history, and philosophy.
 
 ### Selected media coverage
-- <a href="https://youtu.be/beakj767uG4?si=-HhfnuYGZ0jzmOV" target="_blank" style="text-decoration: none;">Video featured on Numberphile discussing co-authored research, with nearly one million views.</a>
+- <a href="https://youtu.be/beakj767uG4?si=-HhfnuYGZ0jzmOV" target="_blank" style="text-decoration: none;">"Does -1/12 Protect Us From Infinity?" Video featured on Numberphile discussing co-authored research, with nearly one million views.</a>
