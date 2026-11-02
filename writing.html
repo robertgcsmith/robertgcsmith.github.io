@@ -1,0 +1,13 @@
+---
+layout: page
+title: Writing
+permalink: /writing/
+---
+
+<h1>{{ page.title }}</h1>
+
+{% if site.posts.size > 0 %}
+{% include post-list.html posts=site.posts %}
+{% else %}
+<p>No posts have been published yet.</p>
+{% endif %}
