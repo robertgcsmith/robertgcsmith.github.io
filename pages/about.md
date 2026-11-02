@@ -22,8 +22,7 @@ My research interests are increasingly centred on methodological machine learnin
 
 A recurring theme in my research is how mathematical and physical structure, uncertainty, and adaptive computational strategies can inform the development of more efficient and reliable learning systems. I am also developing an interest in probabilistic numerical methods, particularly where numerical computation intersects with uncertainty quantification, statistical inference, and learning.
 
-## My blogs
-- <a href="https://thestochasticledger.com/" target="_blank" style="text-decoration: none;">The Stochastic Ledger</a> — Machine learning and quantitative research blog.
+## My other blogs
 - <a href="https://tracingcurves.wordpress.com/" target="_blank" style="text-decoration: none;">TracingCurves</a> — Research blog in mathematical physics, string/M-theory, and a few choice diversions.
 - <a href="https://dialoguesatstillpoints.co.uk/" target="_blank" style="text-decoration: none;">Dialogues at Still Points</a> — Reflections across literature, history, and philosophy.
 
