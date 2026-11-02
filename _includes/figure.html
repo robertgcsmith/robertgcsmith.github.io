@@ -1,0 +1,9 @@
+<figure class="article-figure{% if include.wide == true %} article-figure--wide{% endif %}">
+  <img src="{{ include.src | relative_url | escape }}" alt="{{ include.alt | escape }}">
+  {% if include.caption or include.credit %}
+  <figcaption>
+    {% if include.caption %}{{ include.caption | markdownify }}{% endif %}
+    {% if include.credit %}<div class="figure-credit">{{ include.credit | markdownify }}</div>{% endif %}
+  </figcaption>
+  {% endif %}
+</figure>
