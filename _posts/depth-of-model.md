@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Measuring the depth of a model: how deep is deep?
+title: "Measuring the depth of a model: how deep is deep?"
 image: https://images.pexels.com/photos/288100/pexels-photo-288100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 banner: https://t4.ftcdn.net/jpg/08/59/44/01/240_F_859440192_TXNEvEWgMUjtjtBT03JlOAgMp0EcWQU6.jpg
 category: deep-learning
