@@ -1,0 +1,26 @@
+---
+layout: page
+title: Topics
+permalink: /topics/
+---
+
+<h1>{{ page.title }}</h1>
+
+{% assign topics = site.tags | sort %}
+{% if topics.size > 0 %}
+<ul>
+  {% for topic in topics %}
+  <li><a href="#{{ topic[0] | slugify }}">{{ topic[0] | escape }}</a> ({{ topic[1].size }})</li>
+  {% endfor %}
+</ul>
+
+{% for topic in topics %}
+{% assign topic_posts = topic[1] %}
+<section aria-labelledby="{{ topic[0] | slugify }}">
+  <h2 id="{{ topic[0] | slugify }}">{{ topic[0] | escape }}</h2>
+  {% include post-list.html posts=topic_posts %}
+</section>
+{% endfor %}
+{% else %}
+<p>No topics have been added yet.</p>
+{% endif %}

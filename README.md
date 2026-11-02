@@ -1,12 +1,23 @@
-# Welcome to the blog repo of [Matthias Humt](https://hummat.com)!
+# Robert G. C. Smith — research website
 
-This branch (`main`) is a barebones template for forking—no posts, just the skeleton. See it live at [hummat.github.io](https://hummat.github.io).
+A Jekyll website based on [Matthias Humt's template](https://github.com/hummat/hummat.github.io).
 
-The full blog with all posts lives at [hummat.com](https://hummat.com).
+## Preview and publish
 
-## Roadmap
+The development site is [robertgcsmith.github.io](https://robertgcsmith.github.io/). GitHub Pages builds and deploys the root of `main` automatically. Check the repository's **Actions → pages build and deployment** run before reviewing the published site. Pull requests run a separate Jekyll build check.
 
-See the [Blog Roadmap](https://github.com/users/hummat/projects/2) project for planned features and content.
+To preview a branch locally with Ruby and Bundler installed:
+
+```sh
+bundle install
+bundle exec jekyll serve --drafts --livereload
+```
+
+Open `http://localhost:4000/`. Restart Jekyll after changing `_config.yml`.
+
+Posts use the inherited front matter and Markdown format. Add `mathjax: true` for mathematics, `plotly: true` for Plotly, or `jquery: true` for the existing HTML figure loader. Writing, Topics and `feed.xml` update automatically when posts are published.
+
+The repository has no custom-domain `CNAME` file. Keep `rgcsmith.com`, its DNS and GitHub Pages custom-domain settings unchanged until a separate domain migration is agreed.
 
 ## Credits
 
