@@ -28,3 +28,47 @@ A recurring theme in my research is how mathematical and physical structure, unc
 
 ## Selected media coverage
 - <a href="https://youtu.be/beakj767uG4?si=-HhfnuYGZ0jzmOV" target="_blank" style="text-decoration: none;">"Does -1/12 Protect Us From Infinity?" Video featured on Numberphile discussing co-authored research, with nearly one million views.</a>
+
+## Publications
+### PhD thesis
+**At the edges of infinity and the finite: Charting a path to UV completion from number theory to quantum fields and strings**
+Robert G. C. Smith  
+PhD thesis, University of Nottingham (2026).  
+[University repository](https://repository.nottingham.ac.uk/entities/publication/b7704eb7-a955-4648-9f01-dc318f321092)
+
+**Cantor's Paradise: Evaluating compositional and out-of-distribution generalisation in neural models of infinite cardinality**
+Robert G. C. Smith  
+*Manuscript in preparation*.
+
+**Dynamics-aware de novo antibody design**
+Robert G. C. Smith and Beth M. Titchiner  
+*Manuscript in preparation*.
+
+**Neural surrogates for generalised Turing-type models**
+Robert G. C. Smith
+*Manuscript in preparation*.
+
+**UV completion in the topics**
+Robert G. C. Smith  
+*Manuscript in preparation*.
+
+**Gauge invariance and generalized η regularization**
+Antonio Padilla and Robert G. C. Smith  
+*Physical Review D* **111**, 125013 (2025).  
+[DOI](https://doi.org/10.1103/lysb-cvb2) · [arXiv](https://arxiv.org/abs/2412.12261)
+
+**η regularisation and the functional measure**
+Robert G. C. Smith and Murdock Grewar  
+*arXiv preprint*, 2025.  
+[arXiv](https://arxiv.org/abs/2505.01290) · [PDF](https://arxiv.org/pdf/2505.01290)
+
+**de Sitter vacua in O(d,d) invariant cosmology**
+Yang Liu, Antonio Padilla, Paul M. Saffin and Robert G. C. Smith  
+*Physical Review D* **110**, 063522 (2024).  
+[DOI](https://doi.org/10.1103/PhysRevD.110.063522) · [arXiv](https://arxiv.org/abs/2404.15401)
+
+**Smoothed asymptotics: From number theory to QFT**
+Antonio Padilla and Robert G. C. Smith  
+*Physical Review D* **110**, 025010 (2024).  
+[DOI](https://doi.org/10.1103/PhysRevD.110.025010) · [arXiv](https://arxiv.org/abs/2401.10981)
+
