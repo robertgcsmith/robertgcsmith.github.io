@@ -32,7 +32,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: true
+  rss: false
   twitter:
   stackoverflow:
   youtube: # channel/<your_long_string> or user/<user-name>
