@@ -766,17 +766,22 @@ blockquote {
   margin-bottom: 2.5rem;
 
   .archive-count {
-    margin: 0 0 0.75rem;
+    margin: 0.75rem 0 0;
     color: $muted;
     font-family: $font-sans;
     font-size: 0.875rem;
   }
 
   h1 {
-    margin: 0 0 0.75rem;
-    font-size: clamp(2.5rem, 5vw, 3.25rem);
-    font-weight: 700;
-    line-height: 1.05;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
   }
 
   .writing-description {
@@ -801,6 +806,24 @@ blockquote {
     border-top: 1px solid $rule;
   }
 
+  .archive-item--with-image {
+    grid-template-columns: 9rem minmax(0, 1fr) auto;
+  }
+
+  .archive-thumbnail {
+    display: block;
+    align-self: start;
+    width: 10.5rem;
+    max-width: 100%;
+
+    img {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
   .archive-meta, .archive-topics {
     font-family: $font-sans;
     font-size: 0.875rem;
@@ -822,6 +845,7 @@ blockquote {
     font-size: 1.75rem;
     font-weight: 600;
     line-height: 1.2;
+    text-wrap: balance;
 
     a {
       color: $text-color;

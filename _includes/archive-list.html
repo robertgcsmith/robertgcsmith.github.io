@@ -4,7 +4,8 @@
   {% unless reading_time %}
   {% assign reading_time = post.content | strip_html | number_of_words | plus: 199 | divided_by: 200 | at_least: 1 %}
   {% endunless %}
-  <li class="archive-item">
+  {% assign archive_image = post.image | default: false %}
+  <li class="archive-item{% if archive_image %} archive-item--with-image{% endif %}">
     <div class="archive-meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>
       <span>{{ reading_time }} min read</span>
@@ -20,6 +21,15 @@
       </div>
       {% endif %}
     </div>
+    {% if archive_image %}
+    {% assign thumbnail_alt = post.image_alt %}
+    {% if post.image == post.banner %}
+    {% assign thumbnail_alt = thumbnail_alt | default: post.banner_alt %}
+    {% endif %}
+    <a class="archive-thumbnail" href="{{ post.url | relative_url | escape }}">
+      <img src="{{ archive_image | relative_url | escape }}" alt="{{ thumbnail_alt | default: post.title | escape }}">
+    </a>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
