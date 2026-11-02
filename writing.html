@@ -1,13 +1,19 @@
 ---
-layout: page
+layout: default
 title: Writing
 permalink: /writing/
 ---
 
-<h1>{{ page.title }}</h1>
+<section class="writing-archive" aria-labelledby="writing-title">
+  <header class="writing-header">
+    <p class="archive-count">{{ site.posts.size }} published post{% if site.posts.size != 1 %}s{% endif %}</p>
+    <h1 id="writing-title">{{ page.title | escape }}</h1>
+    <p class="writing-description">Notes and articles on machine learning, mathematics and scientific discovery.</p>
+  </header>
 
-{% if site.posts.size > 0 %}
-{% include post-list.html posts=site.posts %}
-{% else %}
-<p>No posts have been published yet.</p>
-{% endif %}
+  {% if site.posts.size > 0 %}
+  {% include archive-list.html posts=site.posts %}
+  {% else %}
+  <p>No posts have been published yet.</p>
+  {% endif %}
+</section>
