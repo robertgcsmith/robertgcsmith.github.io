@@ -1,12 +1,10 @@
 ---
 layout: about
 title: About
-banner: https://t4.ftcdn.net/jpg/08/27/89/25/240_F_827892527_OPbpD6E4whzTaaUD8BAUgi1lu4uyHLuF.jpg
+banner: /images/RGCS_profile.jpg
 ---
 
 # Robert G. C. Smith
-
-This is an example _About_ page. The layout is `page` defined in `_layouts/page.html`. The banner image can be a weblink or file, e.g. from `/images/banner.jpg`.
 
 ## PhD
 I am a theoretical physicist by training, with expertise at the intersection of fundamental physics, foundational mathematics, and computation. A central theme of my research is the search for new and hidden mathematical structures. My PhD explored deep connections between string theory, perturbative quantum field theory, analytic number theory, and algebraic geometry, while drawing more broadly on ideas from across mathematics and physics. My thesis, "At the edges of infinity and the finite: Charting a path to UV completion from number theory to quantum fields and strings", provides a sample of this work.
