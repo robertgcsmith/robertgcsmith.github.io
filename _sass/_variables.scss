@@ -1,25 +1,15 @@
+// Shared palette and typefaces.
+$paper: #fff3ed;
+$ink: #20201d;
+$coral: #d85b4b;
+$muted: #68625e;
+$rule: rgba($ink, 0.18);
 
-//
-// VARIABLES
-//
+$font-serif: "STIX Two Text", Georgia, serif;
+$font-sans: "Alegreya Sans", "Helvetica Neue", Arial, sans-serif;
+$font-mono: "IBM Plex Mono", Consolas, monospace;
 
-// Colors
-$blue: #4183C4;
-
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
-
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-
-// Mobile breakpoints
+// Retain the existing mobile breakpoint.
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;
