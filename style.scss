@@ -836,7 +836,10 @@ blockquote {
       grid-column: 1;
     }
 
-    &.article-page--with-cover .article-meta { grid-row: 1; }
+    &.article-page--with-cover .article-meta {
+      grid-row: 1;
+      margin-bottom: 2rem;
+    }
 
     .article-meta {
       grid-column: 2;
