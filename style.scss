@@ -599,7 +599,7 @@ img {
   }
 }
 
-.home-writing-heading {
+.home-section-heading {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -618,10 +618,31 @@ img {
   }
 }
 
-.home-intro .home-about-link, .home-writing-heading > a {
+.home-intro .home-about-link, .home-section-heading > a {
   font-family: $font-sans;
   font-size: 0.9375rem;
 }
+
+.home-topics {
+  margin-bottom: 3rem;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    margin: 1.25rem 0 0;
+    padding: 0;
+    list-style: none;
+    font-family: $font-sans;
+    font-size: 1rem;
+  }
+
+  li { max-width: 100%; }
+
+  a { overflow-wrap: anywhere; }
+}
+
+.home-recent { margin-bottom: 4.5rem; }
 
 .posts > .post {
   overflow: hidden;
@@ -885,6 +906,20 @@ blockquote {
       gap: 0.25rem 1rem;
     }
   }
+}
+
+.archive-list--compact {
+  .archive-item { padding: 1.25rem 0; }
+
+  .archive-item:first-child { border-top: 0; }
+
+  .archive-title {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    line-height: 1.35;
+  }
+
+  .archive-topics { margin-top: 0.5rem; }
 }
 
 // Individual posts only; homepage listings also use .post.

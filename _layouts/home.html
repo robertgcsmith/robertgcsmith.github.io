@@ -7,31 +7,32 @@ layout: default
     <p class="home-about-link"><a href="{{ '/about/' | relative_url }}">Full research profile</a></p>
 </section>
 
-<section aria-labelledby="recent-writing">
-    <div class="home-writing-heading">
-        <h2 id="recent-writing">Recent writing</h2>
+{% assign home_topics = site.tags | sort %}
+{% if home_topics.size > 0 %}
+<section class="home-topics" aria-labelledby="home-topics-title">
+  <div class="home-section-heading">
+    <h2 id="home-topics-title">Topics</h2>
+    <a href="{{ '/topics/' | relative_url }}">All topics</a>
+  </div>
+  <ul role="list">
+    {% for topic in home_topics limit:6 %}
+    <li><a href="{{ '/topics/' | relative_url }}#{{ topic[0] | slugify }}">{{ topic[0] | escape }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if site.posts.size > 0 %}
+<section aria-labelledby="latest-article">
+    <div class="home-section-heading">
+        <h2 id="latest-article">Latest article</h2>
         <a href="{{ '/writing/' | relative_url }}">All posts</a>
     </div>
 <div class="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:1 %}
     <article class="post">
         <div class="metadata">
             <div class="date">{{ post.date | date: "%B %e, %Y" }}</div>
-            <div class=tags>
-                {% if post.category != empty %}
-                <div class="tag category">
-                    {{ post.category }}
-                </div>
-                <br>
-                {% endif %}
-                {% if post.tags != empty %}
-                {% for tag in post.tags %}
-                <div class=tag>
-                    {{ tag }}
-                </div>
-                {% endfor %}
-                {% endif %}
-            </div>
             <div class="date">{{ post.time }} min read, {{ post.words }} words</div>
         </div>
         <a class=index-a href="{% if post.gh-page %}{{ post.gh-page }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}">
@@ -62,3 +63,14 @@ layout: default
     {% endfor %}
 </div>
 </section>
+{% endif %}
+
+{% assign recent_posts = site.posts | slice: 1, 5 %}
+{% if recent_posts.size > 0 %}
+<section class="home-recent" aria-labelledby="recent-articles">
+  <div class="home-section-heading">
+    <h2 id="recent-articles">Recent articles</h2>
+  </div>
+  {% include archive-list.html posts=recent_posts compact=true %}
+</section>
+{% endif %}
