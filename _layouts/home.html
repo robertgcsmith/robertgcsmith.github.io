@@ -2,9 +2,12 @@
 layout: default
 ---
 
-<section class="home-intro" aria-label="Research introduction">
+<div class="home-profile">
+  <section class="home-intro" aria-label="Research introduction">
     {{ content }}
-</section>
+  </section>
+  <img class="profile-portrait" src="{{ '/images/RGCS_profile.jpg' | relative_url }}" width="739" height="678" alt="Portrait of Robert G. C. Smith">
+</div>
 
 {% assign home_topics = site.tags | sort %}
 {% if home_topics.size > 0 %}
