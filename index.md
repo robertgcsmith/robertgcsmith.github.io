@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 ---
 
 # Hi, I'm [Robert]({{ '/' | relative_url }}).
