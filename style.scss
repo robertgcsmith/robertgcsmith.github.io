@@ -759,6 +759,33 @@ blockquote {
     }
   }
 
+  .article-cover {
+    grid-column: 1 / -1;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto 2.5rem;
+
+    img {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    figcaption {
+      margin-top: 0.75rem;
+      color: $muted;
+      font-family: $font-sans;
+      font-size: 0.875rem;
+      line-height: 1.5;
+
+      p { margin: 0; }
+    }
+
+    .article-cover-credit { margin-top: 0.25rem; }
+  }
+
   .article-body {
     width: 100%;
     min-width: 0;
@@ -807,6 +834,11 @@ blockquote {
 
     .article-header, .article-body {
       grid-column: 1;
+    }
+
+    &.article-page--with-cover .article-meta {
+      grid-row: 1;
+      margin-bottom: 2rem;
     }
 
     .article-meta {
