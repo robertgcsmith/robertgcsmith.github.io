@@ -796,16 +796,24 @@ blockquote {
     }
 
     h2, h3, h4, h5, h6 {
-      margin: 2.5rem 0 1rem;
+      margin: 2rem 0 0.75rem;
       padding: 0;
       border: 0;
+      font-weight: 600;
       line-height: 1.25;
       text-transform: none;
     }
 
-    h2 { font-size: 1.875rem; }
+    h2 {
+      margin: 3rem 0 1rem;
+      font-size: 1.875rem;
+      font-weight: 700;
+    }
+
     h3 { font-size: 1.5rem; }
-    h4, h5, h6 { font-size: 1.125rem; }
+    h4 { font-size: 1.125rem; }
+    h5 { font-size: 1.0625rem; }
+    h6 { font-size: 1rem; }
 
     > :first-child { margin-top: 0; }
     > :last-child { margin-bottom: 0; }
@@ -813,6 +821,20 @@ blockquote {
     pre, .highlight, .MathJax_Display, .MJXc-display {
       max-width: 100%;
       overflow-x: auto;
+    }
+
+    .MathJax_Display, .MJXc-display {
+      margin: 1.25em 0;
+      padding: 0.25em 0;
+    }
+
+    .MJXc-display {
+      display: flex;
+
+      > .mjx-chtml {
+        flex: 0 0 auto;
+        margin: 0 auto;
+      }
     }
 
     iframe, video {
