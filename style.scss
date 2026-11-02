@@ -764,7 +764,9 @@ blockquote {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto 2.5rem;
+  }
 
+  .article-cover, .article-body .article-figure {
     img {
       display: block;
       width: auto;
@@ -783,7 +785,7 @@ blockquote {
       p { margin: 0; }
     }
 
-    .article-cover-credit { margin-top: 0.25rem; }
+    .article-cover-credit, .figure-credit { margin-top: 0.25rem; }
   }
 
   .article-body {
@@ -793,6 +795,10 @@ blockquote {
 
     p {
       margin: 0 0 1.25em;
+    }
+
+    .article-figure {
+      margin: 2rem 0;
     }
 
     h2, h3, h4, h5, h6 {
@@ -858,7 +864,12 @@ blockquote {
       grid-column: 1;
     }
 
-    &.article-page--with-cover .article-meta {
+    .article-body > .article-figure--wide {
+      width: 974px;
+    }
+
+    &.article-page--with-cover .article-meta,
+    &:has(.article-body > .article-figure--wide) .article-meta {
       grid-row: 1;
       margin-bottom: 2rem;
     }
