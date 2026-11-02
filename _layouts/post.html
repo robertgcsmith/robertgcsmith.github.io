@@ -6,7 +6,7 @@ layout: default
 {% assign reading_time = page.time | default: reading_time %}
 {% assign updated = page.update | default: page.last_modified_at %}
 
-<article class="post article-page" aria-labelledby="article-title">
+<article class="post article-page{% if page.banner %} article-page--with-cover{% endif %}" aria-labelledby="article-title">
   <header class="article-header">
     <h1 id="article-title" class="article-title">{{ page.title | escape }}</h1>
   </header>
@@ -45,6 +45,18 @@ layout: default
       {% endif %}
     </dl>
   </aside>
+
+  {% if page.banner %}
+  <figure class="article-cover">
+    <img src="{{ page.banner | relative_url | escape }}" alt="{{ page.banner_alt | default: page.title | escape }}">
+    {% if page.banner_caption or page.banner_credit %}
+    <figcaption>
+      {% if page.banner_caption %}{{ page.banner_caption | markdownify }}{% endif %}
+      {% if page.banner_credit %}<div class="article-cover-credit">{{ page.banner_credit | markdownify }}</div>{% endif %}
+    </figcaption>
+    {% endif %}
+  </figure>
+  {% endif %}
 
   <div class="entry article-body">
     {{ content }}
