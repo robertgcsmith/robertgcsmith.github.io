@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Measuring the depth of a model: how deep is deep?"
+date: 2026-11-02
 image: /images/Example_of_a_deep_neural_network.png
 banner: /images/Example_of_a_deep_neural_network.png
 category: deep-learning
@@ -8,7 +9,6 @@ abstract: A fascinating question in modern machine learning has to do with how t
 tags: [Deep Learning, Recurrent Neural Networks, Feedforward Neural Networks, Neural Networks, Universal Approximation Theorem, Residual Networks, Transformers, Deep Equilibrium Models, Neural Ordinary Differential Equations, Effective Field Theory, Renormalisation]
 mathjax: true
 permalink: /measuring-the-depth-of-a-model-how-deep-is-deep/
-category: example
 comments: true
 time: 15
 words: 3070
