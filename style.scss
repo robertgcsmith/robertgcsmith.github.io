@@ -579,6 +579,50 @@ img {
   margin: auto;
 }
 
+.home-intro {
+  max-width: 700px;
+  margin-bottom: 3rem;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+
+  h1 {
+    margin: 0 0 1.25rem;
+    font-size: clamp(2rem, 3.5vw, 2.5rem);
+    font-weight: 600;
+    line-height: 1.15;
+  }
+
+  p { margin: 0 0 1em; }
+
+  .home-about-link {
+    margin: 1.5rem 0 0;
+  }
+}
+
+.home-writing-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid $rule;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+}
+
+.home-intro .home-about-link, .home-writing-heading > a {
+  font-family: $font-sans;
+  font-size: 0.9375rem;
+}
+
 .posts > .post {
   overflow: hidden;
   padding-bottom: 2em;

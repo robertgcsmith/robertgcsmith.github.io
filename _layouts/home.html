@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<section class="home-intro" aria-label="Research introduction">
+    {{ content }}
+    <p class="home-about-link"><a href="{{ '/about/' | relative_url }}">Full research profile</a></p>
+</section>
+
+<section aria-labelledby="recent-writing">
+    <div class="home-writing-heading">
+        <h2 id="recent-writing">Recent writing</h2>
+        <a href="{{ '/writing/' | relative_url }}">All writing</a>
+    </div>
 <div class="posts">
     {% for post in site.posts %}
     <article class="post">
@@ -51,3 +61,4 @@ layout: default
     </article>
     {% endfor %}
 </div>
+</section>
