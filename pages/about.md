@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /about/
-banner: /images/RGCS_profile.jpg
 ---
 
 # Robert G. C. Smith
