@@ -27,19 +27,17 @@
 <body>
 <div class="wrapper-masthead">
     <div class="container">
-        <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}"/></a>
-
+        <header class="masthead">
             <div class="site-info">
-                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+                <h1 class="site-name"><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></h1>
                 <p class="site-description">{{ site.description }}</p>
             </div>
 
-            <nav aria-label="Main navigation">
+            <nav class="site-nav" aria-label="Main navigation">
                 <a href="{{ '/about' | relative_url }}">About</a>
                 <a href="{{ '/writing/' | relative_url }}">Writing</a>
                 <a href="{{ '/topics/' | relative_url }}">Topics</a>
-                <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+                <a class="rss-link" href="{{ '/feed.xml' | relative_url }}">RSS</a>
             </nav>
         </header>
     </div>

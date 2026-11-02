@@ -509,90 +509,64 @@ img {
 // .masthead
 //
 
-.wrapper-masthead {
-///  margin-bottom: 50px;
-  padding-left: calc(100vw - 100%);
-}
-
 .masthead {
-  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  padding: 1.5rem 0;
   border-bottom: 1px solid $rule;
 
   @include mobile {
-    text-align: center;
-  }
-}
-
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-  margin-top: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
   }
 }
 
 .site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
+  min-width: 0;
 }
 
 .site-name {
-  margin: 10px 0 0 0;
+  margin: 0;
   color: $text-color;
-  cursor: pointer;
   font-weight: 600;
-  font-size: 28px;
+  font-size: clamp(1.5rem, 3vw, 1.875rem);
+  line-height: 1.1;
   letter-spacing: -0.02em;
 }
 
 .site-description {
-  margin: 0;
+  margin: 0.25rem 0 0;
   color: $muted;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
+  font-size: 0.875rem;
+  line-height: 1.4;
 }
 
-nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-size: 18px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
 
   a {
-    margin-left: 20px;
+    padding: 0.5rem 0;
     color: $text-color;
     text-decoration: none;
-    text-align: right;
     font-weight: 400;
-    letter-spacing: 1px;
 
-    @include mobile {
-      margin: 0 10px;
+    &:hover {
+      color: $link-base-color;
     }
+  }
+
+  .rss-link {
+    color: $muted;
+    font-size: 0.875rem;
   }
 }
 
