@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Writing
+title: Blog
 permalink: /writing/
 ---
 
 <section class="writing-archive" aria-labelledby="writing-title">
   <header class="writing-header">
-    <p class="archive-count">{{ site.posts.size }} published post{% if site.posts.size != 1 %}s{% endif %}</p>
     <h1 id="writing-title">{{ page.title | escape }}</h1>
-    <p class="writing-description">Notes and articles on machine learning, mathematics and scientific discovery.</p>
+    <p class="writing-description">A collection of research notes, articles, and scattered thoughts on machine learning, advanced mathematical methods, and quantitative modelling.</p>
+    <p class="archive-count">{{ site.posts.size }} published post{% if site.posts.size != 1 %}s{% endif %}</p>
   </header>
 
   {% if site.posts.size > 0 %}
