@@ -1,2 +1,4 @@
-# Replace [] with your entries (name, url, description), in display order.
-["colah's blog", https://colah.github.io/, "Christopher Olah's research blog"]
+# Add entries (name, url, description), in display order.
+- name: "colah's blog"
+  url: https://colah.github.io/
+  description: "Christopher Olah's research blog"
