@@ -1180,10 +1180,12 @@ blockquote {
   }
 
   .article-cover {
-    grid-column: 1 / -1;
+    grid-column: 1;
     width: 100%;
-    max-width: 1024px;
+    max-width: 700px;
     margin: 0 auto 2.5rem;
+
+    figcaption { text-align: center; }
   }
 
   .article-cover, .article-body .article-figure {
@@ -1288,10 +1290,23 @@ blockquote {
       width: 974px;
     }
 
-    &.article-page--with-cover .article-meta,
     &:has(.article-body > .article-figure--wide) .article-meta {
       grid-row: 1;
       margin-bottom: 2rem;
+    }
+
+    &.article-page--with-cover {
+      // Let a tall sidebar grow the body track rather than the title.
+      grid-template-rows: max-content max-content minmax(0, 1fr);
+
+      .article-meta { grid-row: 1 / span 3; }
+
+      &:has(.article-body > .article-figure--wide) {
+        // Clear the sidebar before figures extend into its column.
+        grid-template-rows: max-content minmax(0, 1fr) auto;
+
+        .article-meta { grid-row: 1 / span 2; }
+      }
     }
 
     .article-meta {
