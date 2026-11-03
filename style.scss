@@ -957,6 +957,135 @@ blockquote {
   .archive-topics { margin-top: 0.5rem; }
 }
 
+.topics-page {
+  margin-bottom: 4.5rem;
+
+  .topics-header {
+    max-width: 700px;
+    margin-bottom: 2rem;
+
+    h1 {
+      margin: 0 0 0.75rem;
+      font-size: clamp(2.5rem, 5vw, 3.25rem);
+      line-height: 1.1;
+    }
+
+    p {
+      margin: 0;
+      color: $muted;
+      font-size: 1.125rem;
+    }
+  }
+
+  .topics-layout {
+    display: grid;
+    gap: 2rem;
+    max-width: 700px;
+  }
+
+  .topic-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    min-width: 0;
+    font-family: $font-sans;
+    font-size: 0.9375rem;
+
+    button {
+      max-width: 100%;
+      padding: 0.4rem 0.7rem;
+      border: 1px solid $rule;
+      border-radius: 3px;
+      background: transparent;
+      color: $text-color;
+      font: inherit;
+      line-height: 1.4;
+      text-align: left;
+      overflow-wrap: anywhere;
+      cursor: pointer;
+
+      span { color: $muted; margin-left: 0.35rem; }
+
+      &:hover, &[aria-pressed="true"] {
+        border-color: $coral;
+        background: mix($coral, $paper, 10%);
+      }
+
+      &[aria-pressed="true"] { font-weight: 600; }
+
+      &:focus-visible {
+        outline: 2px solid $coral;
+        outline-offset: 3px;
+      }
+    }
+  }
+
+  .topics-results { min-width: 0; }
+
+  .topics-count {
+    margin: 0 0 1rem;
+    color: $muted;
+    font-family: $font-sans;
+    font-size: 0.875rem;
+  }
+
+  .topics-empty { margin: 0; }
+
+  .blogroll {
+    min-width: 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid $rule;
+    font-family: $font-sans;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+
+    h2 {
+      margin: 0 0 1rem;
+      padding: 0 0 0.75rem;
+      border: 0;
+      font-size: 1.5rem;
+    }
+
+    p { color: $muted; }
+    ul { margin: 1.5rem 0 0; padding: 0; list-style: none; }
+    li { margin-bottom: 1.25rem; overflow-wrap: anywhere; }
+    li > a { color: $text-color; font-weight: 600; }
+    li p { margin: 0.25rem 0 0; }
+
+    summary {
+      color: $link-base-color;
+      cursor: pointer;
+    }
+
+    summary:focus-visible {
+      outline: 2px solid $coral;
+      outline-offset: 3px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .topics-layout--with-blogroll {
+      max-width: none;
+      grid-template-columns: minmax(0, 1fr) 15.5rem;
+      grid-template-rows: auto 1fr;
+      column-gap: 2.5rem;
+
+      .topic-filters { grid-column: 1; grid-row: 1; }
+      .topics-results { grid-column: 1; grid-row: 2; }
+
+      .blogroll {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        padding: 0 0 0 1.5rem;
+        border-top: 0;
+        border-left: 1px solid $rule;
+      }
+    }
+  }
+
+  [hidden] { display: none; }
+}
+
 // Individual posts only; homepage listings also use .post.
 .article-page {
   max-width: 700px;

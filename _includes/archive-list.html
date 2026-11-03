@@ -5,10 +5,10 @@
   {% assign reading_time = post.content | strip_html | number_of_words | plus: 199 | divided_by: 200 | at_least: 1 %}
   {% endunless %}
   {% assign archive_image = false %}
-  {% unless include.compact %}
+  {% unless include.compact or include.discovery %}
   {% assign archive_image = post.image | default: false %}
   {% endunless %}
-  <li class="archive-item{% if archive_image %} archive-item--with-image{% endif %}">
+  <li class="archive-item{% if archive_image %} archive-item--with-image{% endif %}"{% if include.discovery %} data-topics="{{ post.tags | jsonify | escape }}"{% endif %}>
     <div class="archive-meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>
       <span>{{ reading_time }} min read</span>
@@ -18,7 +18,7 @@
       {% unless include.compact %}
       <p class="archive-summary">{% if post.abstract %}{{ post.abstract | strip_html | escape }}{% else %}{{ post.excerpt | strip_html | truncatewords: 40 | escape }}{% endif %}</p>
       {% endunless %}
-      {% if post.tags.size > 0 %}
+      {% if post.tags.size > 0 and include.discovery != true %}
       <div class="archive-topics" aria-label="Topics">
         {% for tag in post.tags %}
         <a href="{{ '/topics/' | relative_url }}#{{ tag | slugify }}">{{ tag | escape }}</a>
