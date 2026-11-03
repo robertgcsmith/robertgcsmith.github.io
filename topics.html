@@ -1,26 +1,59 @@
 ---
-layout: page
+layout: default
 title: Topics
 permalink: /topics/
 ---
 
-<h1>{{ page.title }}</h1>
+<section class="topics-page" aria-labelledby="topics-title">
+  <header class="topics-header">
+    <h1 id="topics-title">{{ page.title | escape }}</h1>
+    <p>Browse articles by topic.</p>
+  </header>
 
-{% assign topics = site.tags | sort %}
-{% if topics.size > 0 %}
-<ul>
-  {% for topic in topics %}
-  <li><a href="#{{ topic[0] | slugify }}">{{ topic[0] | escape }}</a> ({{ topic[1].size }})</li>
-  {% endfor %}
-</ul>
+  {% assign topics = site.tags | sort %}
+  {% assign blogroll = site.data.blogroll %}
+  <div class="topics-layout{% if blogroll.size > 0 %} topics-layout--with-blogroll{% endif %}">
+    <div class="topic-filters" role="group" aria-label="Filter articles by topic" hidden>
+      <button type="button" data-topic="" data-topic-slug="" aria-pressed="true" aria-controls="topic-articles">All articles <span>{{ site.posts.size }}</span></button>
+      {% for topic in topics %}
+      <button type="button" data-topic="{{ topic[0] | escape }}" data-topic-slug="{{ topic[0] | slugify | escape }}" aria-pressed="false" aria-controls="topic-articles">{{ topic[0] | escape }} <span>{{ topic[1].size }}</span></button>
+      {% endfor %}
+    </div>
 
-{% for topic in topics %}
-{% assign topic_posts = topic[1] %}
-<section aria-labelledby="{{ topic[0] | slugify }}">
-  <h2 id="{{ topic[0] | slugify }}">{{ topic[0] | escape }}</h2>
-  {% include post-list.html posts=topic_posts %}
+    {% if blogroll.size > 0 %}
+    <aside class="blogroll" aria-labelledby="blogroll-title">
+      <h2 id="blogroll-title">Blogroll</h2>
+      <p>An assortment of blogs, research notes, and other writing that I regularly enjoy reading.</p>
+      <ul role="list">
+        {% for blog in blogroll limit:5 %}
+        <li>
+          <a href="{{ blog.url | escape }}">{{ blog.name | escape }}</a>
+          <p>{{ blog.description | escape }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+      {% if blogroll.size > 5 %}
+      <details>
+        <summary>Show all ({{ blogroll.size }})</summary>
+        <ul role="list">
+          {% for blog in blogroll offset:5 %}
+          <li>
+            <a href="{{ blog.url | escape }}">{{ blog.name | escape }}</a>
+            <p>{{ blog.description | escape }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endif %}
+    </aside>
+    {% endif %}
+
+    <section class="topics-results" id="topic-articles" aria-label="Articles">
+      <p class="topics-count" role="status" aria-live="polite" aria-atomic="true">{{ site.posts.size }} article{% if site.posts.size != 1 %}s{% endif %}</p>
+      {% include archive-list.html posts=site.posts discovery=true %}
+      <p class="topics-empty"{% if site.posts.size > 0 %} hidden{% endif %}>{% if site.posts.size == 0 %}No articles have been published yet.{% else %}No articles match this topic. Select another topic or All articles.{% endif %}</p>
+    </section>
+  </div>
 </section>
-{% endfor %}
-{% else %}
-<p>No topics have been added yet.</p>
-{% endif %}
+
+<script src="{{ '/js/topics.js' | relative_url }}" defer></script>
