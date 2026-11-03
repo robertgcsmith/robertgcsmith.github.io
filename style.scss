@@ -957,6 +957,61 @@ blockquote {
   .archive-topics { margin-top: 0.5rem; }
 }
 
+.article-search {
+  max-width: 700px;
+  margin-bottom: 1.25rem;
+  font-family: $font-sans;
+  font-size: 1rem;
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9375rem;
+  }
+
+  .article-search-field {
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  input {
+    width: 100%;
+    min-width: 0;
+    padding: 0.65rem 0.75rem;
+    border: 1px solid $rule;
+    border-radius: 3px;
+    background: transparent;
+    color: $text-color;
+    font: inherit;
+
+    &::placeholder { color: $muted; }
+  }
+
+  button {
+    flex-shrink: 0;
+    padding: 0 0.25rem;
+    border: 0;
+    background: transparent;
+    color: $link-base-color;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  input:focus-visible, button:focus-visible {
+    outline: 2px solid $coral;
+    outline-offset: 3px;
+  }
+}
+
+.article-results-count {
+  margin: 0 0 1rem;
+  color: $muted;
+  font-family: $font-sans;
+  font-size: 0.875rem;
+}
+
+[data-article-filter] [hidden] { display: none; }
+
 .topics-page {
   margin-bottom: 4.5rem;
 
@@ -1022,13 +1077,6 @@ blockquote {
 
   .topics-results { min-width: 0; }
 
-  .topics-count {
-    margin: 0 0 1rem;
-    color: $muted;
-    font-family: $font-sans;
-    font-size: 0.875rem;
-  }
-
   .topics-empty { margin: 0; }
 
   .blogroll {
@@ -1070,7 +1118,7 @@ blockquote {
       grid-template-rows: auto 1fr;
       column-gap: 2.5rem;
 
-      .topic-filters { grid-column: 1; grid-row: 1; }
+      .archive-controls { grid-column: 1; grid-row: 1; }
       .topics-results { grid-column: 1; grid-row: 2; }
 
       .blogroll {
@@ -1083,7 +1131,6 @@ blockquote {
     }
   }
 
-  [hidden] { display: none; }
 }
 
 // Individual posts only; homepage listings also use .post.
