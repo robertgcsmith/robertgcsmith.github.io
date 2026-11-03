@@ -4,7 +4,7 @@ title: Topics
 permalink: /topics/
 ---
 
-<section class="topics-page" aria-labelledby="topics-title">
+<section class="topics-page" data-article-filter aria-labelledby="topics-title">
   <header class="topics-header">
     <h1 id="topics-title">{{ page.title | escape }}</h1>
     <p>Browse articles by topic.</p>
@@ -13,11 +13,14 @@ permalink: /topics/
   {% assign topics = site.tags | sort %}
   {% assign blogroll = site.data.blogroll %}
   <div class="topics-layout{% if blogroll.size > 0 %} topics-layout--with-blogroll{% endif %}">
-    <div class="topic-filters" role="group" aria-label="Filter articles by topic" hidden>
-      <button type="button" data-topic="" data-topic-slug="" aria-pressed="true" aria-controls="topic-articles">All articles <span>{{ site.posts.size }}</span></button>
-      {% for topic in topics %}
-      <button type="button" data-topic="{{ topic[0] | escape }}" data-topic-slug="{{ topic[0] | slugify | escape }}" aria-pressed="false" aria-controls="topic-articles">{{ topic[0] | escape }} <span>{{ topic[1].size }}</span></button>
-      {% endfor %}
+    <div class="archive-controls" hidden>
+      {% include article-search.html results_id="topic-articles" %}
+      <div class="topic-filters" role="group" aria-label="Filter articles by topic">
+        <button type="button" data-topic="" data-topic-slug="" aria-pressed="true" aria-controls="topic-articles">All articles <span>{{ site.posts.size }}</span></button>
+        {% for topic in topics %}
+        <button type="button" data-topic="{{ topic[0] | escape }}" data-topic-slug="{{ topic[0] | slugify | escape }}" aria-pressed="false" aria-controls="topic-articles">{{ topic[0] | escape }} <span>{{ topic[1].size }}</span></button>
+        {% endfor %}
+      </div>
     </div>
 
     {% if blogroll.size > 0 %}
@@ -49,9 +52,9 @@ permalink: /topics/
     {% endif %}
 
     <section class="topics-results" id="topic-articles" aria-label="Articles">
-      <p class="topics-count" role="status" aria-live="polite" aria-atomic="true">{{ site.posts.size }} article{% if site.posts.size != 1 %}s{% endif %}</p>
-      {% include archive-list.html posts=site.posts discovery=true %}
-      <p class="topics-empty"{% if site.posts.size > 0 %} hidden{% endif %}>{% if site.posts.size == 0 %}No articles have been published yet.{% else %}No articles match this topic. Select another topic or All articles.{% endif %}</p>
+      <p class="article-results-count" data-article-count role="status" aria-live="polite" aria-atomic="true">{{ site.posts.size }} article{% if site.posts.size != 1 %}s{% endif %}</p>
+      {% include archive-list.html posts=site.posts discovery=true search=true %}
+      <p class="topics-empty" data-article-empty{% if site.posts.size > 0 %} hidden{% endif %}>{% if site.posts.size == 0 %}No articles have been published yet.{% else %}No articles match these filters. Try another search or select All articles.{% endif %}</p>
     </section>
   </div>
 </section>

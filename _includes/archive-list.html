@@ -8,7 +8,7 @@
   {% unless include.compact or include.discovery %}
   {% assign archive_image = post.image | default: false %}
   {% endunless %}
-  <li class="archive-item{% if archive_image %} archive-item--with-image{% endif %}"{% if include.discovery %} data-topics="{{ post.tags | jsonify | escape }}"{% endif %}>
+  <li class="archive-item{% if archive_image %} archive-item--with-image{% endif %}"{% if include.search %} data-search="{{ post.title | escape }} {{ post.abstract | strip_html | escape }}"{% endif %}{% if include.discovery or include.search %} data-topics="{{ post.tags | jsonify | escape }}"{% endif %}>
     <div class="archive-meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>
       <span>{{ reading_time }} min read</span>

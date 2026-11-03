@@ -4,16 +4,22 @@ title: Blog
 permalink: /writing/
 ---
 
-<section class="writing-archive" aria-labelledby="writing-title">
+<section class="writing-archive" data-article-filter aria-labelledby="writing-title">
   <header class="writing-header">
     <h1 id="writing-title">{{ page.title | escape }}</h1>
     <p class="writing-description">A collection of research notes, articles, and scattered thoughts on machine learning, advanced mathematical methods, and quantitative modelling.</p>
     <p class="archive-count">{{ site.posts.size }} published post{% if site.posts.size != 1 %}s{% endif %}</p>
   </header>
 
-  {% if site.posts.size > 0 %}
-  {% include archive-list.html posts=site.posts %}
-  {% else %}
-  <p>No posts have been published yet.</p>
-  {% endif %}
+  <div class="archive-controls" hidden>
+    {% include article-search.html results_id="blog-articles" %}
+    <p class="article-results-count" data-article-count role="status" aria-live="polite" aria-atomic="true">{{ site.posts.size }} article{% if site.posts.size != 1 %}s{% endif %}</p>
+  </div>
+
+  <div id="blog-articles">
+    {% include archive-list.html posts=site.posts search=true %}
+    <p data-article-empty{% if site.posts.size > 0 %} hidden{% endif %}>{% if site.posts.size == 0 %}No posts have been published yet.{% else %}No articles match your search. Try different words or clear the search.{% endif %}</p>
+  </div>
 </section>
+
+<script src="{{ '/js/topics.js' | relative_url }}" defer></script>
