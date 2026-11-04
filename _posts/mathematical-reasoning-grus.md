@@ -8,7 +8,7 @@ banner_alt: "gated recurrent unit (GRU)"
 banner_caption: "Computing the hidden state in a GRU."
 banner_credit: "Borrowed from [Dive into Deep Learning](https://d2l.ai/d2l-en.pdf) by Zhang et al."
 category: Recurrent Neural Networks
-abstract: A fascinating question in modern machine learning has to do with how to measure the depth of a model.
+abstract: Discusses mathematical reasoning and extrapolation on OOD data in neural networks, focusing on Gated Recurrent Units (GRUs).
 tags: [Recurrent Neural Networks, Gated Recurrent Unit, Long Short-term Memory Models, Mathematical Reasoning, Extrapolation]
 mathjax: true
 permalink: /mathematical-reasoning-grus/
