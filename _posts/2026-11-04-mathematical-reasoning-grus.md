@@ -31,7 +31,9 @@ GRUs were introduced by [Cho et al.](https://aclanthology.org/D14-1179/) in 2014
 The governing equations of an LSTM are fairly straightforward. Assuming there are ℎ hidden units with the batch size 𝑛, and with $$ d $$ number of inputs, define the input as $$ X_t \in \mathbb{R}^{n\times d} $$ and the hidden state of the previous time step $$ H_{t-1} \in \mathbb{R}^{n\times h} $$. The gates at time step 𝑡 are defined as follows: the input gate is $$ I_t \in \mathbb{R}^{n\times h} $$, the forget gate is $$F_t \in \mathbb{R}^{n\times h} $$, and the output gate is $$ O_t \in \mathbb{R}^{n\times h} $$. It follows
 
 $$ I_t = \sigma(X_t W_{xi} + H_{t −1} W_{hi} + b_i), $$
+
 $$ F_t = \sigma (X_t W_{xf} + H_{t-1}W_{hf} + b_f), $$
+
 $$ O_t = \sigma (X_t W_{xo} + H_{t-1} W_{ho} + b_o) , $$
 
 where $$ W_{xi}, W_{xf}, W_{xo} \in \mathbb{R}^{d \times h} $$ and $$ W_{hi}, W_{hf}, W_{ho} \in \mathbb{R}^{h \times h} $$ are weight matrices, and $$ b_i, b_f, b_o \in \mathbb{R}^{1 \times h} $$ are bias vectors broadcast across the batch. The input node $$ \tilde{C} \in \mathbb{R}^{n \times h} $$ uses the $$ \tanh$$ function with a value range $$-1,1 $$ as the activation function. The activation function maps the gate activations into the interval $$(0,1) $$, with the gates themselves acting as continuous, differentiable controls over information flow, rather than exact binary switches.
@@ -53,7 +55,7 @@ When we include a hidden state, schematically we have a network as pictured belo
 
 There are two interesting features of an LSTM which, in many ways, help motivate the idea of a GRU. Using the Hadamard product, the memory cell internal state is given by the additive update
 
-$$ C_t = F_t \odot C_{t-1} + I_t \odot \tilde{C}_t $$,
+$$ C_t = F_t \odot C_{t-1} + I_t \odot \tilde{C}_t, $$
 
 where the input gate \(I_t\) governs the quantity of new data inputed via $$\tilde{C}t$$, and the forget gate governs how much is retained of the old cell internal state $$C_{t-1} \in \mathbb{R}^{n \times h}$$. In practice, the input gate controls the contribution of the candidate cell state, the forget gate controls retention of the previous cell state, and the output gate controls how much of the transformed cell state is exposed through the hidden state. This matters because gating provides a learned, differentiable mechanism for controlling memory rather than an explicit system of discrete logical instructions.
 
@@ -86,8 +88,11 @@ where $$h_t $$ is the hidden state at time $$t$$, and $$\mathcal{F}_\theta $$ is
 A GRU uses two gates to regulate its recurrent computation: the reset gate $$ r_t $$ and the update gate $$z_t$$. (For clarity, we now use lowercase notation to describe a single sequence, rather than the batched matrix notation used in the LSTM equations above). The equations implemented by PyTorch's nn.GRU are
 
 $$  r_t = \sigma(W_{ir}x_t+b_{ir} +W_{hr}h_{t-1}+b_{hr}),$$
+
 $$ z_t = \sigma(W_{iz}x_t+b_{iz} +W_{hz}h_{t-1}+b_{hz}),$$
+
 $$ n_t = \tanh\left(W_{in}x_t+b_{in} +r_t\odot(W_{hn}h_{t-1}+b_{hn})\right),$$
+
 $$ h_t = (1-z_t)\odot n_t+z_t\odot h_{t-1}, $$
 
 where $$ \sigma)$$ is the sigmoid function and $$n_t $$ is the candidate hidden state. The reset and update gates perform distinct, complementary functions. The reset gate regulates how the previous hidden state contributes to constructing the candidate state. The update gate determines the interpolation between the previous hidden state and the new candidate. For example, when a component of $$z_t$$ approaches one, the corresponding component of the previous state is retained approximately unchanged. When it approaches zero, the candidate state contributes more strongly.
@@ -99,6 +104,7 @@ The candidate-state equation in PyTorch differs from the formulation commonly pr
 $$ \tilde h_t= \tanh\left( W_{in}x_t+b_{in} +W_{hn}(r_t\odot h_{t-1})+b_{hn}\right). $$
 
 In PyTorch's formulation, the corresponding calculation takes the form
+
 $$ n_t= \tanh\left(W_{in}x_t+b_{in}+r_t\odot(W_{hn}h_{t-1}+b_{hn}) \right). $$
 
 What's different? Notice that in the first formulation, the rest gate acts on the previous hidden state before the hidden-to-hidden affine transformation. In PyTorch, it acts on the transformed recurrent contribution instead. These operations are not equivalent in general $$W(r\odot h)\neq r\odot(Wh) $$. The implication of this is actually quite interesting. Gating before matrix multiplication changes how individual previous state coordinates contribute to the candidate representation, whereas gating afterward controls the resulting transformed coordinates. PyTorch documents this ordering as an implementation choice motivated by computational efficiency. But it actually matters for mathematical reasoning insofar that, unlike a model explicitly provided with the abstract syntax tree of an expression, a character-level GRU receives a sequence of symbols and must learn which aspects of that sequence are relevant to subsequent computation. Whilst both formulations implement the same broad architectural principle: recurrent information is selectively incorporated into a candidate representation, while an update gate controls how much of the previous hidden state is preserved.
