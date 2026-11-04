@@ -24,6 +24,7 @@ layout: default
 </section>
 {% endif %}
 
+
 {% if site.posts.size > 0 %}
 <section aria-labelledby="latest-article">
     <div class="home-section-heading">
@@ -32,10 +33,14 @@ layout: default
     </div>
 <div class="posts">
     {% for post in site.posts limit:1 %}
+
+    {% assign word_count = post.content | strip_html | number_of_words %}
+    {% assign reading_time = word_count | plus: 199 | divided_by: 200 | at_least: 1 %}
+
     <article class="post">
         <div class="metadata">
             <div class="date">{{ post.date | date: "%B %e, %Y" }}</div>
-            <div class="date">{{ post.time }} min read, {{ post.words }} words</div>
+            <div class="date">{{ reading_time }} min read, {{ word_count }} words</div>
         </div>
         <a class=index-a href="{% if post.gh-page %}{{ post.gh-page }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}">
             {% if post.image %}
@@ -66,6 +71,7 @@ layout: default
 </div>
 </section>
 {% endif %}
+
 
 {% assign recent_posts = site.posts | slice: 1, 5 %}
 {% if recent_posts.size > 0 %}
