@@ -50,7 +50,6 @@ When we include a hidden state, schematically we have a network as pictured belo
    src="/images/LSTM_hidden_state.png"
    alt="long short-term momemory models (LSTMs)"
    caption="Computing the hidden state in an LSTM model. Borrowed from [Dive into Deep Learning](https://d2l.ai/d2l-en.pdf) by Zhang et al."
-  wide=true
 %}
 
 There are two interesting features of an LSTM which, in many ways, help motivate the idea of a GRU. Using the Hadamard product, the memory cell internal state is given by the additive update
