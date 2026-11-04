@@ -13,8 +13,6 @@ tags: [Recurrent Neural Networks, Gated Recurrent Unit, Long Short-term Memory M
 mathjax: true
 permalink: /mathematical-reasoning-grus/
 comments: true
-time: 15
-words: 3070
 ---
 
 One of the research projects I have been working on concerns mathematical reasoning and extrapolation on out-of-distribution (OOD) data in neural networks. Extrapolation is the ability of a model to correctly predict the output when given data sampled outside the training distribution. For example, if a model is trained on a ranger $[0,5]$ a valid OOD range may be something like $[6,10]$. Or, in the context of mathematical reasoning, we may train a model on some synthetic dataset based on some underlying algebraic rules, and then study in what sense a model may extrapolate on OOD data. We can ask questions like: is the model taking a statistical shortcut to predict results, or has it actually learned the algebraic rules? In other words, extrapolation means that the model successfully learns the underlying principles for modelling the mathematical operations (e.g., algebraic or arithmetic) it was trained on. These are the sort of questions my current research encircles: it concerns the conditions under which neural networks can perform mathematical computations beyond the distributions encountered during training.
