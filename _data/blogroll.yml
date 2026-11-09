@@ -2,3 +2,27 @@
 - name: "colah's blog"
   url: https://colah.github.io/
   description: "Christopher Olah's research blog"
+
+- name: "Terence Tao"
+  url: https://terrytao.wordpress.com/
+  description: "Terry Tao’s blog"
+
+- name: "Shtetl-Optimized"
+  url: https://scottaaronson.blog/
+  description: "The blog of Scott Aaronson"
+  
+- name: "Gödel's Lost Letter and P=NP"
+  url: https://rjlipton.wordpress.com/
+  description: "Dick Lipton's blog on theory of computation"
+
+- name: "Machine Learning Research Blog"
+  url: https://francisbach.com/
+  description: "Francis Bach's ML research blog"
+
+- name: "Severely Theoretical"
+  url: https://severelytheoretical.wordpress.com/
+  description: "machine learning, cognitive science, computational neuroscience"
+
+- name: "Azimuth"
+  url: https://johncarlosbaez.wordpress.com/
+  description: "John Baez blog"
