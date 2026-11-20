@@ -11,7 +11,7 @@ category: Mathematical Reasoning
 abstract: Some thoughts on shortcut learning, optimisation, and mathematical extrapolation in neural networks. I discuss why successful optimisation need not imply that a network has learned a reusable mathematical procedure.
 tags: [Machine Learning, Shortcut Learning, Mathematical Reasoning, Out-of-Distribution Generalisation, Optimisation, Recurrent Neural Networks]
 mathjax: true
-permalink: /covergence-is-not-counting/
+permalink: /convergence-is-not-counting/
 comments: true
 ---
 One of the questions I have been thinking about in my research on mathematical reasoning and extrapolation is what it actually means for a neural network to have learned a mathematical computation.
