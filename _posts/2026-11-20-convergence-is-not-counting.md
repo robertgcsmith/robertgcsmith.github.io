@@ -172,7 +172,7 @@ For a classifier that relies exclusively on the cue, we know the expected behavi
 
 It is important to be precise about what this establishes. Such a result demonstrates cue dependence on the tested examples. It does not prove that the network has learned nothing about the token counts, or that it relies exclusively on the cue. Nor does the fixed training budget establish that the network has converged. Different initialisations, optimisation settings, or training durations might produce different computational strategies. This is just part of the complexity of ML experiments. It is also precisely what makes the experiment useful: rather than merely observing poor out-of-distribution (OOD) performance, we have deliberately constructed a suspected shortcut and can intervene on it while holding the actual task fixed. The distinction between identifying a plausible shortcut and demonstrating that a model uses it is the goal.
 
-[For the interested reader, I've uploaded the experiment to my repo.]
+[For the interested reader, I've uploaded the experiment to my [repo](https://github.com/robertgcsmith/gru_lab/tree/main/cue_shortcut_counting).]
 
 ## Counting without counting
 There is another example I find particularly interesting, because this time we do not have to insert any artificial cue.
